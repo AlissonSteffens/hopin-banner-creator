@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Hopin Banner Maker</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='styles/main.css'>
+  <script src='scripts/main.js'></script>
+  <script src="http://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <main>
+    <div class="nav">
+      <button class="btn" onclick="loadJSON()">Carregar JSON</button>
+      <button class="btn" id="generate" onclick="generateBanners()" disabled>Gerar Banners</button>
+      <button class="btn" id="save" onclick="save()" disabled>Baixar Imagens</button>
+    </div>
+    <div class='info' id="infos">
+    </div>
+    <div id="banners"></div>
+  </main>
+  <a id="link"></a>
+  <div class="banner" id="banner-template">
+    <div class="topline"></div>
+    <div class="content-wrap">
+      <div class="content">
+        <img class="logo" src="assets/logo.png" alt="">
+        <div class="event">${event}</div>
+        <div class="session">${section}</div>
+      </div>
+    </div>
+  </div>
+  <div class='info' id="info-template">
+    <p><strong>Objetos Carregados:</strong> ${count}</p>
+    <p><strong>Campos Encontrados:</strong> [${keys}]</p>
+  </div>
+</body>
+</html>

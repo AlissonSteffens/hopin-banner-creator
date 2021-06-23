@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ddd;
+  padding: 10px;
+}
+
+.nav .btn {
+  font-size: 1rem;
+  background-color: #3498db;
+  border: none;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  margin: .2rem 1rem;
+}
+
+.nav .btn:hover {
+  background-color: #2980b9;
+}
+
+.nav .btn:disabled {
+  cursor: default;
+  background-color: #aaa;
+}
+
+.info {
+  background-color: #bbb;
+  padding: 1rem;
+}
+
+#info-template {
+  display: none;
+}
+
+.banner {
+  width: 1500px;
+  min-width: 1500px;
+  max-width: 1500px;
+  height: 600px;
+  min-height: 600px;
+  max-height: 600px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto 1fr;
+      grid-template-rows: auto 1fr;
+  background-color: gray;
+}
+
+.banner .topline {
+  height: 25px;
+  min-height: 25px;
+  max-height: 25px;
+  display: block;
+  background-color: #f4c71a;
+}
+
+.banner .content-wrap {
+  padding: 50px 100px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background: url(/assets/praia.jpg);
+  background-size: cover;
+  background-position-y: center;
+}
+
+.banner .content-wrap .content {
+  display: -ms-grid;
+  display: grid;
+  margin: auto 0;
+  place-items: center;
+  -ms-grid-rows: auto auto 1fr;
+      grid-template-rows: auto auto 1fr;
+  gap: 20px;
+  color: white;
+}
+
+.banner .content-wrap .content .logo {
+  width: 80px;
+}
+
+.banner .content-wrap .content .event {
+  font-weight: 700;
+  font-size: 32px;
+  color: #f4c71a;
+  text-align: center;
+}
+
+.banner .content-wrap .content .session {
+  font-weight: 900;
+  font-size: 55px;
+  text-align: center;
+}
+
+.banner.long .session {
+  font-size: 36px !important;
+}
+
+.banner.satelite .topline {
+  background-color: #2788c9;
+}
+
+.banner.satelite .content .event {
+  color: #2788c9;
+}
+
+.banner.extra .topline {
+  background-color: #2edeb7;
+}
+
+.banner.extra .content .event {
+  color: #2edeb7;
+}
+
+#banners {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+#link {
+  display: none;
+}
+
+#banner-template {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */
