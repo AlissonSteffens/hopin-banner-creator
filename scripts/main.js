@@ -1,6 +1,21 @@
-let sections
+let sections;
 
-async function loadJSON() {
+function checkStorage(){
+  if(localStorage.getItem('sessoes')){
+    loadJSON(localStorage.getItem('sessoes'))
+  }
+}
+
+function loadJSON(json) {
+  sections = JSON.parse(json)
+  let info = document.getElementById('info-template').innerHTML
+  let novo = info.replace('${count}', sections.length);
+  novo = novo.replace('${keys}', Object.keys(sections[0]));
+  document.getElementById('infos').innerHTML = novo
+  document.getElementById("generate").disabled = false
+}
+
+async function askJSON() {
   const { value: json } = await Swal.fire({
     title: 'Input Banners Json',
     input: 'textarea',
@@ -9,12 +24,8 @@ async function loadJSON() {
   })
 
   if (json) {
-    sections = JSON.parse(json)
-    let info = document.getElementById('info-template').innerHTML
-    let novo = info.replace('${count}', sections.length);
-    novo = novo.replace('${keys}', Object.keys(sections[0]));
-    document.getElementById('infos').innerHTML = novo
-    document.getElementById("generate").disabled = false
+    localStorage.setItem('sessoes', json)
+    loadJSON(json)
   }
 }
 
@@ -50,3 +61,13 @@ function save() {
     });
   }
 }
+
+function docReady(fn) {
+  if (document.readyState === "complete" || document.readyState === "interactive") {
+    setTimeout(fn, 1);
+  } else {
+    document.addEventListener("DOMContentLoaded", fn);
+  }
+}
+
+docReady(checkStorage)
