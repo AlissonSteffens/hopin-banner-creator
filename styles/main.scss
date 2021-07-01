@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
 
-$amarelo: #f4c71a;
+$amarelo: #f4c71b;
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -15,28 +15,28 @@ body {
     font-size: 1rem;
     background-color: #3498db;
     border: none;
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
     border-radius: 5px;
     color: white;
     font-weight: 700;
     cursor: pointer;
-    margin: .2rem 1rem;
+    margin: 0.2rem 1rem;
     &:hover {
       background-color: #2980b9;
     }
-    
-    &:disabled{
+
+    &:disabled {
       cursor: default;
       background-color: #aaa;
     }
   }
 }
-.info{
+.info {
   background-color: #bbb;
   padding: 1rem;
 }
 
-#info-template{
+#info-template {
   display: none;
 }
 .banner {
@@ -47,9 +47,9 @@ body {
   min-height: 600px;
   max-height: 600px;
   display: grid;
-  grid-template-rows: auto 1fr;
+  grid-template-rows: 1fr;
   background-color: gray;
-  
+
   .topline {
     height: 25px;
     min-height: 25px;
@@ -62,7 +62,7 @@ body {
     padding: 50px 100px;
     display: grid;
     place-items: center;
-    background: url(/assets/praia.jpg);
+    background: url("/assets/bg.jpg");
     background-size: cover;
     background-position-y: center;
     .content {
@@ -73,44 +73,34 @@ body {
       gap: 20px;
       color: white;
       .logo {
-        width: 80px;
+        width: 125px;
       }
       .event {
         font-weight: 700;
-        font-size: 32px;
+        font-size: 42px;
         color: $amarelo;
         text-align: center;
       }
       .session {
         font-weight: 900;
-        font-size: 55px;
+        font-size: 65px;
         text-align: center;
       }
     }
   }
-  &.long{
+  &.long {
     .session {
       font-size: 36px !important;
     }
   }
   &.satelite {
-    .topline {
-      background-color: #2788c9;
-    }
-    .content {
-      .event {
-        color: #2788c9;
-      }
+    .content-wrap {
+      background: url("/assets/bg2.jpg");
     }
   }
   &.extra {
-    .topline {
-      background-color: #2edeb7;
-    }
-    .content {
-      .event {
-        color: #2edeb7;
-      }
+    .content-wrap {
+      background: url("/assets/bg3.jpg");
     }
   }
 }
@@ -121,7 +111,7 @@ body {
   gap: 20px;
   padding: 20px;
 }
-#link{
+#link {
   display: none;
 }
 #banner-template {
