@@ -135,6 +135,12 @@ body {
   font-weight: 700;
 }
 
+.banner .content-wrap .content .people small {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+}
+
 .banner.long .session {
   font-size: 36px !important;
 }

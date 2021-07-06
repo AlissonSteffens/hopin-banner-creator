@@ -73,7 +73,6 @@ function generateYoutubeBanner() {
     let bann = document.createElement('div');
     bann.classList.add('banner')
     bann.classList.add('youtube')
-    bann.classList.add(section.type)
     if (section.section.length >= 200) {
       bann.classList.add('long')
     }
