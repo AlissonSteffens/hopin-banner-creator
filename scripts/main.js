@@ -63,7 +63,13 @@ function generateYoutubeBanner() {
   sections.forEach((section) => {
     let nova = text.replace('${event}', section.event);
     nova = nova.replace('${section}', section.section);
-    nova = nova.replace('${people}', section.people);
+
+    let people = '';
+    section.people.forEach(person => {
+      people += `${person.name} <small>(${person.headline})</small></br>`
+    });
+
+    nova = nova.replace('${people}', people);
     let bann = document.createElement('div');
     bann.classList.add('banner')
     bann.classList.add('youtube')

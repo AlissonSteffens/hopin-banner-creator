@@ -4,8 +4,17 @@
     {
       "event": "COMPUTEC",
       "type": "principal",
-      "section": "Startups, investimento e inovação: <small> como participar deste ecossistema </small>",
-      "people": "Maria Rita (Diretora Executiva da Anjos do Brasil) e Tanara Lauschner (Pró-reitora de Inovação Tecnológica da UFAM)"
+      "section": "Startups, investimento e inovação <small> como participar deste ecossistema </small>",
+      "people": [
+        {
+          "name": "Maria Rita",
+          "headline": "Diretora Executiva da Anjos do Brasil"
+        },
+        {
+          "name": "Tanara Lauschner",
+          "headline": "Pró-reitora de Inovação Tecnológica da UFAM"
+        }
+      ]
     }
   ]
 }
