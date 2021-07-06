@@ -61,7 +61,7 @@ body {
 }
 
 .banner.hopin .content-wrap {
-  background: url("../themes/hopin/bg.jpg");
+  background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/hopin/bg.jpg");
 }
 
 .banner.youtube {
@@ -74,7 +74,7 @@ body {
 }
 
 .banner.youtube .content-wrap {
-  background: url("../themes/youtube/bg.jpg");
+  background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/youtube/bg.jpg");
 }
 
 .banner .topline {
@@ -146,11 +146,11 @@ body {
 }
 
 .banner.satelite .content-wrap {
-  background: url("../themes/hopin/bg2.jpg");
+  background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/hopin/bg2.jpg");
 }
 
 .banner.extra .content-wrap {
-  background: url("../themes/hopin/bg3.jpg");
+  background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/hopin/bg3.jpg");
 }
 
 #banners {
