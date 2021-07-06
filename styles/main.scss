@@ -40,16 +40,32 @@ body {
   display: none;
 }
 .banner {
-  width: 1500px;
-  min-width: 1500px;
-  max-width: 1500px;
-  height: 600px;
-  min-height: 600px;
-  max-height: 600px;
   display: grid;
   grid-template-rows: 1fr;
   background-color: gray;
 
+  &.hopin {
+    width: 1500px;
+    min-width: 1500px;
+    max-width: 1500px;
+    height: 600px;
+    min-height: 600px;
+    max-height: 600px;
+    .content-wrap {
+      background: url("/themes/hopin/bg.jpg");
+    }
+  }
+  &.youtube {
+    width: 1280px;
+    min-width: 1280px;
+    max-width: 1280px;
+    height: 720px;
+    min-height: 720px;
+    max-height: 720px;
+    .content-wrap {
+      background: url("/themes/youtube/bg.jpg");
+    }
+  }
   .topline {
     height: 25px;
     min-height: 25px;
@@ -62,7 +78,6 @@ body {
     padding: 50px 100px;
     display: grid;
     place-items: center;
-    background: url("/assets/bg.jpg");
     background-size: cover;
     background-position-y: center;
     .content {
@@ -85,6 +100,17 @@ body {
         font-weight: 900;
         font-size: 65px;
         text-align: center;
+        small{
+          font-size: 50px;
+          font-weight: 500;
+          display: block;
+        }
+      }
+      .people{
+        text-align: center;
+        font-size: 25px;
+        color: $amarelo;
+        font-weight: 700;
       }
     }
   }
@@ -95,12 +121,12 @@ body {
   }
   &.satelite {
     .content-wrap {
-      background: url("/assets/bg2.jpg");
+      background: url("/themes/hopin/bg2.jpg");
     }
   }
   &.extra {
     .content-wrap {
-      background: url("/assets/bg3.jpg");
+      background: url("/themes/hopin/bg3.jpg");
     }
   }
 }
@@ -114,6 +140,7 @@ body {
 #link {
   display: none;
 }
-#banner-template {
+#hopin-template,
+#youtube-template {
   display: none;
 }

@@ -1,16 +1,19 @@
+let data;
 let sections;
 
-function checkStorage(){
-  if(localStorage.getItem('sessoes')){
-    loadJSON(localStorage.getItem('sessoes'))
+function checkStorage() {
+  if (localStorage.getItem('data')) {
+    loadJSON(localStorage.getItem('data'))
   }
 }
 
 function loadJSON(json) {
-  sections = JSON.parse(json)
+  data = JSON.parse(json)
+  sections = data.data
   let info = document.getElementById('info-template').innerHTML
   let novo = info.replace('${count}', sections.length);
   novo = novo.replace('${keys}', Object.keys(sections[0]));
+  novo = novo.replace('${name}', data.name);
   document.getElementById('infos').innerHTML = novo
   document.getElementById("generate").disabled = false
 }
@@ -24,13 +27,13 @@ async function askJSON() {
   })
 
   if (json) {
-    localStorage.setItem('sessoes', json)
+    localStorage.setItem('data', json)
     loadJSON(json)
   }
 }
 
-function generateBanners() {
-  let text = document.getElementById('banner-template').innerHTML
+function generateHopinBanner() {
+  let text = document.getElementById('hopin-template').innerHTML
   let component = document.getElementById('banners')
   let count = 0
 
@@ -39,6 +42,7 @@ function generateBanners() {
     nova = nova.replace('${section}', section.section);
     let bann = document.createElement('div');
     bann.classList.add('banner')
+    bann.classList.add('hopin')
     bann.classList.add(section.type)
     if (section.section.length >= 200) {
       bann.classList.add('long')
@@ -49,6 +53,41 @@ function generateBanners() {
     component.append(bann)
   })
   document.getElementById("save").disabled = false
+}
+
+function generateYoutubeBanner() {
+  let text = document.getElementById('youtube-template').innerHTML
+  let component = document.getElementById('banners')
+  let count = 0
+
+  sections.forEach((section) => {
+    let nova = text.replace('${event}', section.event);
+    nova = nova.replace('${section}', section.section);
+    nova = nova.replace('${people}', section.people);
+    let bann = document.createElement('div');
+    bann.classList.add('banner')
+    bann.classList.add('youtube')
+    bann.classList.add(section.type)
+    if (section.section.length >= 200) {
+      bann.classList.add('long')
+    }
+    bann.innerHTML = nova
+    bann.id = count
+    count++
+    component.append(bann)
+  })
+  document.getElementById("save").disabled = false
+}
+
+function generateBanners() {
+  let template = document.getElementById("template-selector").value
+  document.getElementById('banners').innerHTML = ""
+  if (template === "Hopin") {
+    generateHopinBanner()
+  }
+  else if (template === "Youtube") {
+    generateYoutubeBanner()
+  }
 }
 
 function save() {

@@ -44,17 +44,37 @@ body {
 }
 
 .banner {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  background-color: gray;
+}
+
+.banner.hopin {
   width: 1500px;
   min-width: 1500px;
   max-width: 1500px;
   height: 600px;
   min-height: 600px;
   max-height: 600px;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 1fr;
-      grid-template-rows: 1fr;
-  background-color: gray;
+}
+
+.banner.hopin .content-wrap {
+  background: url("/themes/hopin/bg.jpg");
+}
+
+.banner.youtube {
+  width: 1280px;
+  min-width: 1280px;
+  max-width: 1280px;
+  height: 720px;
+  min-height: 720px;
+  max-height: 720px;
+}
+
+.banner.youtube .content-wrap {
+  background: url("/themes/youtube/bg.jpg");
 }
 
 .banner .topline {
@@ -70,7 +90,6 @@ body {
   display: -ms-grid;
   display: grid;
   place-items: center;
-  background: url("/assets/bg.jpg");
   background-size: cover;
   background-position-y: center;
 }
@@ -103,16 +122,29 @@ body {
   text-align: center;
 }
 
+.banner .content-wrap .content .session small {
+  font-size: 50px;
+  font-weight: 500;
+  display: block;
+}
+
+.banner .content-wrap .content .people {
+  text-align: center;
+  font-size: 25px;
+  color: #f4c71b;
+  font-weight: 700;
+}
+
 .banner.long .session {
   font-size: 36px !important;
 }
 
 .banner.satelite .content-wrap {
-  background: url("/assets/bg2.jpg");
+  background: url("/themes/hopin/bg2.jpg");
 }
 
 .banner.extra .content-wrap {
-  background: url("/assets/bg3.jpg");
+  background: url("/themes/hopin/bg3.jpg");
 }
 
 #banners {
@@ -128,7 +160,8 @@ body {
   display: none;
 }
 
-#banner-template {
+#hopin-template,
+#youtube-template {
   display: none;
 }
 /*# sourceMappingURL=main.css.map */
