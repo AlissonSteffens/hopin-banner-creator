@@ -1,12 +1,14 @@
 let data;
 let sections;
 
+// function that checks if the data is in localStorage
 function checkStorage() {
   if (localStorage.getItem('data')) {
     loadJSON(localStorage.getItem('data'))
   }
 }
 
+// function that loads the JSON and displays the basic information
 function loadJSON(json) {
   data = JSON.parse(json)
   sections = data.data
@@ -18,6 +20,7 @@ function loadJSON(json) {
   document.getElementById("generate").disabled = false
 }
 
+// function that asks the JSON for the user (with a modal) and save it to the localStorage
 async function askJSON() {
   const { value: json } = await Swal.fire({
     title: 'Input Banners Json',
@@ -25,76 +28,49 @@ async function askJSON() {
     inputLabel: 'Your JSON',
     inputPlaceholder: 'Enter your JSON'
   })
-
   if (json) {
     localStorage.setItem('data', json)
     loadJSON(json)
   }
 }
 
-function generateHopinBanner() {
-  let text = document.getElementById('hopin-template').innerHTML
-  let component = document.getElementById('banners')
-  let count = 0
-
-  sections.forEach((section) => {
-    let nova = text.replace('${event}', section.event);
-    nova = nova.replace('${section}', section.section);
-    let bann = document.createElement('div');
-    bann.classList.add('banner')
-    bann.classList.add('hopin')
-    bann.classList.add(section.type)
-    if (section.section.length >= 200) {
-      bann.classList.add('long')
-    }
-    bann.innerHTML = nova
-    bann.id = count
-    count++
-    component.append(bann)
-  })
-  document.getElementById("save").disabled = false
-}
-
-function generateYoutubeBanner() {
-  let text = document.getElementById('youtube-template').innerHTML
-  let component = document.getElementById('banners')
-  let count = 0
-
-  sections.forEach((section) => {
-    let nova = text.replace('${event}', section.event);
-    nova = nova.replace('${section}', section.section);
-
-    let people = '';
-    section.people.forEach(person => {
-      people += `${person.name} <small>(${person.headline})</small></br>`
-    });
-
-    nova = nova.replace('${people}', people);
-    let bann = document.createElement('div');
-    bann.classList.add('banner')
-    bann.classList.add('youtube')
-    if (section.section.length >= 200) {
-      bann.classList.add('long')
-    }
-    bann.innerHTML = nova
-    bann.id = count
-    count++
-    component.append(bann)
-  })
-  document.getElementById("save").disabled = false
-}
-
+// function that generates the banner according to the template-selector
 function generateBanners() {
-  let template = document.getElementById("template-selector").value
+  let template = document.getElementById("template-selector").value.toLowerCase();
   document.getElementById('banners').innerHTML = ""
-  if (template === "Hopin") {
-    generateHopinBanner()
-  }
-  else if (template === "Youtube") {
-    generateYoutubeBanner()
-  }
+  let text = document.getElementById(`${template}-template`).innerHTML
+  let component = document.getElementById('banners')
+  let count = 0
+  // create a new Banner for each section
+  sections.forEach((section) => {
+    let nova = "";
+    nova = text.replace('${secondary}', section.event);
+    nova = nova.replace('${main}', section.section);
+    // if the template is a youtube one, we add the speakers
+    if (template == 'youtube') {
+      let people = '';
+      if (section.people) {
+        section.people.forEach(person => {
+          people += `${person.name} <small>(${person.headline})</small></br>`
+        });
+      }
+      nova = nova.replace('${small}', people);
+    }
+    let bann = document.createElement('div');
+    bann.classList.add('banner')
+    bann.classList.add(template)
+    if (section.section.length >= 200) {
+      bann.classList.add('long')
+    }
+    bann.innerHTML = nova
+    bann.id = count
+    count++
+    component.append(bann)
+  })
+  document.getElementById("save").disabled = false
 }
 
+// function that downloads the banners as PNG images
 function save() {
   for (let i = 0; i < sections.length; i++) {
     html2canvas(document.getElementById(i)).then(canvas => {
@@ -106,12 +82,13 @@ function save() {
   }
 }
 
-function docReady(fn) {
-  if (document.readyState === "complete" || document.readyState === "interactive") {
-    setTimeout(fn, 1);
+// function that checks if the document is ready and calls the argument function
+function ready(fn) {
+  if (document.readyState !== 'loading') {
+    fn();
   } else {
-    document.addEventListener("DOMContentLoaded", fn);
+    document.addEventListener('DOMContentLoaded', fn);
   }
 }
 
-docReady(checkStorage)
+ready(checkStorage)
