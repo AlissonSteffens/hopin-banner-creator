@@ -101,7 +101,6 @@ function generateBanners() {
     bann.innerHTML = nova
     bann.id = count
     count++
-    component.append(section.section)
     component.append(bann)
   })
   document.getElementById("save").disabled = false
