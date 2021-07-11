@@ -14,7 +14,13 @@ function loadJSON(json) {
   sections = data.data
   let info = document.getElementById('info-template').innerHTML
   let novo = info.replace('${count}', sections.length);
-  novo = novo.replace('${keys}', Object.keys(sections[0]));
+  let keys = Object.keys(data.data[0])
+  let k = ""
+  // create an ul with an li for each key in keys
+  for (let i = 0; i < keys.length; i++) {
+    k += `<li>${keys[i]}</li>`
+  }
+  novo = novo.replace('${keys}', k);
   novo = novo.replace('${name}', data.name);
   document.getElementById('infos').innerHTML = novo
   document.getElementById("generate").disabled = false

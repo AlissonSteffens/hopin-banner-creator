@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
 
 $amarelo: #f4c71b;
+
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -24,16 +25,129 @@ body {
     &:hover {
       background-color: #2980b9;
     }
-
     &:disabled {
       cursor: default;
       background-color: #aaa;
     }
   }
 }
+
+// style the info class to look like a card
 .info {
-  background-color: #bbb;
+  background-color: #f4f4f4;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 0;
+  .card-title {
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  .card-text {
+    padding: 20px;
+    // style the list to look like bootstrapS
+    ul {
+      margin-bottom: 0;
+      margin-left: 0;
+      margin-block-start: 0;
+      padding-block-start: 0;
+      padding: 0;
+      // remove bullets
+      li {
+        display: inline-block;
+        list-style: none;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
+        margin-bottom: 0;
+        font-weight: 700;
+        font-size: .9rem;
+        background-color: #e8e8e8;
+        color: #555;
+        &:hover {
+          background-color: #d4d4d4;
+        }
+      }
+    }
+    
+  }
+  .card-text img {
+    width: 100%;
+  }
+  // styles counter class to look like a floating badge
+  .counter {
+    float: right;
+    margin-top: -20px;
+    margin-right: -20px;
+    font-size: 2rem;
+    // set the background color to be slighly darker than the info card
+    background-color: #e8e8e8;
+    padding: 1rem;
+    border-radius: 5px;
+    color: #333;
+    font-weight: 700;
+  }
+  
+}
+
+
+// style the select element to be like bootstrap's
+select {
   padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  font-size: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  &:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  &:hover {
+    background-color: #e9e9e9;
+  }
+  &:active {
+    background-color: #ebebeb;
+  }
+  &:disabled {
+    cursor: default;
+    background-color: #aaa;
+  }
+  // style the option elements
+  option {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    // remove the default border
+    border: none;
+    // remover the default option border on desktops
+    border-bottom: 1px solid #ddd;
+    // style the selected option
+    &:selected {
+      background-color: #3498db;
+      color: white;
+    }
+    &:hover {
+      background-color: #e9e9e9;
+    }
+    &:active {
+      background-color: #ebebeb;
+    }
+    &:disabled {
+      cursor: default;
+      background-color: #aaa;
+    }
+  }
 }
 
 #info-template {
