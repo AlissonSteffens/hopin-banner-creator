@@ -51,13 +51,42 @@ function generateBanners() {
   sections.forEach((section) => {
     let nova = "";
     nova = text.replace('${secondary}', section.event);
-    nova = nova.replace('${main}', section.section);
+    // split section.section into ; separated values
+    let values = section.section.split(";")
+    let main = ''
+    // create a new p for each value
+    values.forEach((value) => {
+      // format value if it has a : make a <small> tag
+      if (value.indexOf(":") !== -1) {
+        let sec = value.split(":")
+        if (sec[0].toLowerCase().trim() === 'palestra' || sec[0].toLowerCase().trim() === 'painel'){
+          sec.shift()
+        }
+        main += `${sec[0]} `
+        sec.shift()
+        main += `<small>${sec.join(':')}</small>`
+      } else {
+        main += value
+      }
+      main += "<br>"
+    })
+    nova = nova.replace('${main}', main);
     // if the template is a youtube one, we add the speakers
     if (template == 'youtube') {
       let people = '';
       if (section.people) {
         section.people.forEach(person => {
-          people += `${person.name} <small>(${person.headline})</small></br>`
+          // check if person has a headline and it is not an empty string
+          if (person.headline && person.headline != "") {
+            people += `${person.name} <small>(${person.headline})</small></br>`
+          }else if (person.name && person.name != "" && person.name !== 'nan') {
+            people += `${person.name}`
+            // check if it is not the last person and add a comma
+            if (! (section.people.length - 1 == section.people.indexOf(person))) {
+              people += ', '
+            }
+          }
+          
         });
       }
       nova = nova.replace('${small}', people);
@@ -65,12 +94,14 @@ function generateBanners() {
     let bann = document.createElement('div');
     bann.classList.add('banner')
     bann.classList.add(template)
-    if (section.section.length >= 200) {
+
+    if (section.section.length >= 75) {
       bann.classList.add('long')
     }
     bann.innerHTML = nova
     bann.id = count
     count++
+    component.append(section.section)
     component.append(bann)
   })
   document.getElementById("save").disabled = false
@@ -98,3 +129,4 @@ function ready(fn) {
 }
 
 ready(checkStorage)
+

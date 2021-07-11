@@ -263,6 +263,12 @@ select option:disabled {
   font-size: 36px !important;
 }
 
+.banner.long .session small {
+  font-size: 24px !important;
+  font-weight: 500;
+  display: block;
+}
+
 .banner.satelite .content-wrap {
   background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/hopin/bg2.jpg");
 }
