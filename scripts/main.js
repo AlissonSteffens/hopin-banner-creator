@@ -59,7 +59,7 @@ function generateBanners() {
       // format value if it has a : make a <small> tag
       if (value.indexOf(":") !== -1) {
         let sec = value.split(":")
-        if (sec[0].toLowerCase().trim() === 'palestra' || sec[0].toLowerCase().trim() === 'painel'){
+        if (sec[0].toLowerCase().trim() === 'palestra' || sec[0].toLowerCase().trim() === 'painel' || sec[0].toLowerCase().trim() === 'st' || sec[0].toLowerCase().trim() === 'session'){
           sec.shift()
         }
         main += `${sec[0]} `
@@ -93,9 +93,10 @@ function generateBanners() {
     }
     let bann = document.createElement('div');
     bann.classList.add('banner')
+    bann.classList.add(section.type)
     bann.classList.add(template)
-
-    if (section.section.length >= 75) {
+    // if the title lenght is bigger than 75, we add a long class to make the font smaller
+    if (section.section.length >= 75 || values.length >= 2) {
       bann.classList.add('long')
     }
     bann.innerHTML = nova
@@ -111,10 +112,11 @@ function save() {
   for (let i = 0; i < sections.length; i++) {
     html2canvas(document.getElementById(i)).then(canvas => {
       var link = document.getElementById('link');
+      console.log(`${i} feito` )
       link.setAttribute('download', `${sections[i].event}/${sections[i].section}.png`);
       link.setAttribute('href', canvas.toDataURL("image/png").replace("image/png", "image/octet-stream"));
       link.click();
-    });
+    })
   }
 }
 

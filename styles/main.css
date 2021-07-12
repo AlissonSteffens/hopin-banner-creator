@@ -277,6 +277,14 @@ select option:disabled {
   background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/hopin/bg3.jpg");
 }
 
+.banner.espacial .content-wrap {
+  background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/hopin/bg5.jpg");
+}
+
+.banner.treino .content-wrap {
+  background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/hopin/bg4.jpg");
+}
+
 #banners {
   display: -ms-grid;
   display: grid;

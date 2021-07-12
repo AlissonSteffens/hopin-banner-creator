@@ -254,6 +254,16 @@ select {
       background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/hopin/bg3.jpg");
     }
   }
+  &.espacial {
+    .content-wrap {
+      background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/hopin/bg5.jpg");
+    }
+  }
+  &.treino {
+    .content-wrap {
+      background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/hopin/bg4.jpg");
+    }
+  }
 }
 
 #banners {
