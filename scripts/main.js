@@ -93,7 +93,11 @@ function generateBanners() {
     }
     let bann = document.createElement('div');
     bann.classList.add('banner')
-    bann.classList.add(section.type)
+    // only has a custom type if is a hopin template
+    if (template == 'hopin') {
+      bann.classList.add(section.type)
+    }
+    
     bann.classList.add(template)
     // if the title lenght is bigger than 75, we add a long class to make the font smaller
     if (section.section.length >= 75 || values.length >= 2) {
