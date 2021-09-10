@@ -1,0 +1,10 @@
+{
+  "name": "Sec",
+  "data": [
+    {
+      "event": "WFIBRE",
+      "type": "satelite",
+      "section": "Workshop do testbed FIBRE"
+    }
+  ]
+}

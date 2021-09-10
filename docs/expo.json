@@ -1,0 +1,65 @@
+{
+  "name": "Expo",
+  "data": [
+    {
+      "event": "expo",
+      "type": "principal",
+      "section": "Jusbrasil",
+      "colors": ["#008dcb", "#ffcd00", "#ffffff"]
+    },
+    {
+      "event": "expo",
+      "type": "principal",
+      "section": "Itaú",
+      "colors": ["#ffff00", "#00309d"]
+    },
+    {
+      "event": "expo",
+      "type": "principal",
+      "section": "Acate",
+      "colors": ["#acc81b", "#343434"]
+    },
+    {
+      "event": "expo",
+      "type": "principal",
+      "section": "Americanas",
+      "colors": ["#ff0037", "#ffffff"]
+    },
+    {
+      "event": "expo",
+      "type": "principal",
+      "section": "Cgi Nic",
+      "colors": ["#72c032", "#97be0e", "#f5e724"]
+    },
+    {
+      "event": "expo",
+      "type": "principal",
+      "section": "Google",
+      "colors": ["#3780ff", "#fcbd06"]
+    },
+    {
+      "event": "expo",
+      "type": "principal",
+      "section": "Loggi",
+      "colors": ["#00bce8", "#ffffff"]
+    },
+    {
+      "event": "expo",
+      "type": "principal",
+      "section": "Meliuz",
+      "colors": ["#ff355a", "#ffffff"]
+    },
+    {
+      "event": "expo",
+      "type": "principal",
+      "section": "SBC",
+      "colors": ["#0e866d", "#f7c611"]
+    },
+    {
+      "event": "expo",
+      "type": "principal",
+      "section": "Segware",
+      "colors": ["#000000", "#ffffff"]
+    }
+  ]
+}

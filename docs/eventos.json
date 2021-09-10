@@ -1,0 +1,2243 @@
+{
+  "name": "Eventos",
+  "data": [
+    {
+      "event": "Abertura",
+      "type": "principal",
+      "section": "Sess√£o de abertura do XLI Congresso da Sociedade Brasileira de Computa√ß√£o (CSBC)"
+    },
+    {
+      "event": "Assembleia SBC",
+      "type": "extra",
+      "section": "Assembleia SBC"
+    },
+    {
+      "event": "Encerramento",
+      "type": "principal",
+      "section": "Sess√£o de encerramento do XLI Congresso da Sociedade Brasileira de Computa√ß√£o (CSBC)"
+    },
+    {
+      "event": "SECOMU",
+      "type": "principal",
+      "section": "Painel: Falta de privacidade e controle comportamental numa economia de vigil√¢ncia: Outro mundo √© poss√≠vel?"
+    },
+    {
+      "event": "IFIP",
+      "type": "extra",
+      "section": "Keynote - IFIP: a global framework for the socially responsible development and application of information and communication technologies"
+    },
+    {
+      "event": "SECOMU",
+      "type": "principal",
+      "section": "Painel: Transforma√ß√£o digital e quarta revolu√ß√£o industrial: desafios tecnol√≥gicos, impactos econ√¥micos e sociais"
+    },
+    {
+      "event": "SECOMU",
+      "type": "principal",
+      "section": "Painel: Educa√ß√£o presencial ou online: limites, vantagens e desafios"
+    },
+    {
+      "event": "CQ",
+      "type": "principal",
+      "section": "MEC/SESU/SERES: Esclarecimentos sobre a cria√ß√£o de cursos inovadores e experimentais; A√ß√µes da SBC "
+    },
+    {
+      "event": "WBOC",
+      "type": "satelite",
+      "section": "Contribui√ß√£o das Olimp√≠adas para a Internacionaliza√ß√£o da Educa√ß√£o; ONDA e OBA; Olimp√≠adas Internacionais de Conhecimento"
+    },
+    {
+      "event": "WBL",
+      "type": "satelite",
+      "section": "Palestra convidada"
+    },
+    {
+      "event": "WBL",
+      "type": "satelite",
+      "section": "Sess√£o T√©cnica 1"
+    },
+    {
+      "event": "WPIETF",
+      "type": "satelite",
+      "section": "Opening session and keynote speaker"
+    },
+    {
+      "event": "WPIETF",
+      "type": "satelite",
+      "section": "Sess√£o T√©cnica 1"
+    },
+    {
+      "event": "CQ",
+      "type": "principal",
+      "section": "Relatos de experi√™ncia de gestores de cursos experimentais/inovadores em execu√ß√£o"
+    },
+    {
+      "event": "WBOC",
+      "type": "satelite",
+      "section": "Desafios das olimp√≠adas remotas na Pandemia"
+    },
+    {
+      "event": "WBL",
+      "type": "satelite",
+      "section": "Sess√£o T√©cnica 2"
+    },
+    {
+      "event": "WPIETF",
+      "type": "satelite",
+      "section": "Painel: Vantagens, Solu√ß√µes e Oportunidades: Aumentando a participa√ß√£o da sociedade nos processos do IETF/IRTF"
+    },
+    {
+      "event": "WBOC",
+      "type": "satelite",
+      "section": "Meninas Ol√≠mpicas: 5 anos de hist√≥ria; Projetos, a√ß√µes e homenagens para as Meninas Ol√≠mpicas"
+    },
+    {
+      "event": "WBL",
+      "type": "satelite",
+      "section": "Palestra convidada"
+    },
+    {
+      "event": "WPIETF",
+      "type": "satelite",
+      "section": "Sess√£o T√©cnica 2"
+    },
+    {
+      "event": "WPIETF",
+      "type": "satelite",
+      "section": "Palestra: Human Rights considerations in protocols design and deployment. Closing Session and Best paper award"
+    },
+    {
+      "event": "SEMISH",
+      "type": "principal",
+      "section": "Palestra 1: Filosofia da Tecnologia: Uma Experi√™ncia Docente na P√≥s-Gradua√ß√£o da PUC-Rio"
+    },
+    {
+      "event": "SEMISH",
+      "type": "principal",
+      "section": "Sess√£o T√©cnica 1: Cloud, SDN e Processamento de Alto Desempenho"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Reuni√£o com Projetos Parceiros do Programa Meninas Digitais"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Abertura; Palestra: Inova√ß√£o & Transforma√ß√£o Digital no mundo VUCA: Impacto em Pessoas, Processos e Tecnologia"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Sess√£o T√©cnica 1"
+    },
+    {
+      "event": "F√≥rum PG",
+      "type": "extra",
+      "section": "Abertura; Conversa sobre os GTs do F√≥rum"
+    },
+    {
+      "event": "F√≥rum PG",
+      "type": "extra",
+      "section": "Painel ‚ÄúGest√£o da P√≥s-Gradua√ß√£o em Tempos de Recursos Escassos‚Äù "
+    },
+    {
+      "event": "CTD",
+      "type": "principal",
+      "section": "Teses de doutorado"
+    },
+    {
+      "event": "ENCOMPIF",
+      "type": "satelite",
+      "section": "Trilha: ensino m√©dio"
+    },
+    {
+      "event": "ENCOMPIF",
+      "type": "satelite",
+      "section": "Trilha: gradua√ß√£o e p√≥s-gradua√ß√£o"
+    },
+    {
+      "event": "ETC",
+      "type": "satelite",
+      "section": "Abertura e Sess√£o t√©cnica 1"
+    },
+    {
+      "event": "WICS",
+      "type": "satelite",
+      "section": "Abertura e Sess√£o T√©cnica 1 "
+    },
+    {
+      "event": "WICS",
+      "type": "satelite",
+      "section": "Sess√£o T√©cnica 2"
+    },
+    {
+      "event": "WASHES",
+      "type": "satelite",
+      "section": "Abertura. Palestra: Emergent deep Digital/Human configurations: implications for organising + Community Engagement"
+    },
+    {
+      "event": "WASHES",
+      "type": "satelite",
+      "section": "Sess√£o T√©cnica 1"
+    },
+    {
+      "event": "SEMISH",
+      "type": "principal",
+      "section": "Sess√£o T√©cnica 2: Dispositivo M√≥vel, Sem Fio e Ubiquidade"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Sess√£o T√©cnica 2"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Artigos curtos - sala 01"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Artigos curtos - sala 02"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Artigos curtos - sala 03"
+    },
+    {
+      "event": "F√≥rum PG",
+      "type": "extra",
+      "section": "Conversa com membros do CA-CC/CAPES"
+    },
+    {
+      "event": "F√≥rum PG",
+      "type": "extra",
+      "section": "Assuntos administrativos do F√≥rum "
+    },
+    {
+      "event": "CTD",
+      "type": "principal",
+      "section": "Disserta√ß√µes de Mestrado I"
+    },
+    {
+      "event": "ENCOMPIF",
+      "type": "satelite",
+      "section": "Premia√ß√£o do melhor trabalho de ensino m√©dio e Trilha: gradua√ß√£o e p√≥s-gradua√ß√£o"
+    },
+    {
+      "event": "ENCOMPIF",
+      "type": "satelite",
+      "section": "Trilha: trabalhos dos professores"
+    },
+    {
+      "event": "ETC",
+      "type": "satelite",
+      "section": "Palestra convidada"
+    },
+    {
+      "event": "ETC",
+      "type": "satelite",
+      "section": "Sess√£o t√©cnica 2"
+    },
+    {
+      "event": "WICS",
+      "type": "satelite",
+      "section": "Palestra Convidada 1: BEM-VINDOS ao FUTURO FIGITAL"
+    },
+    {
+      "event": "WASHES",
+      "type": "satelite",
+      "section": "Sess√£o T√©cnica 2"
+    },
+    {
+      "event": "WASHES",
+      "type": "satelite",
+      "section": "Encerramento"
+    },
+    {
+      "event": "SEMISH",
+      "type": "principal",
+      "section": "Palestra 2: Aveiro Tech City Open Lab: launching a city-scale digital open laboratory"
+    },
+    {
+      "event": "SEMISH",
+      "type": "principal",
+      "section": "Sess√£o T√©cnica 3: Sistemas Multim√≠dia e Web"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Sess√£o T√©cnica 3"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Painel: Motivos para Promover a Diversidade de G√™nero na TI"
+    },
+    {
+      "event": "JAI",
+      "type": "principal",
+      "section": "Ci√™ncia de Dados com Reprodutibilidade usando Jupyter"
+    },
+    {
+      "event": "CTD",
+      "type": "principal",
+      "section": "Disserta√ß√µes de Mestrado II"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Abertura WEI 2021 ‚Äì Melhores artigos e Melhores Revisores"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess√£o T√©cnica 1 ‚Äì Ensino Remoto Emergencial"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess√£o T√©cnica 2 ‚Äì Ensino de Temas em Computa√ß√£o"
+    },
+    {
+      "event": "ETC",
+      "type": "satelite",
+      "section": "Sess√£o t√©cnica 3"
+    },
+    {
+      "event": "WICS",
+      "type": "satelite",
+      "section": "Palestra Convidada 2: Computa√ß√£o Socialmente Consciente: reflex√µes e li√ß√µes aprendidas na forma√ß√£o em Computa√ß√£o"
+    },
+    {
+      "event": "WICS",
+      "type": "satelite",
+      "section": "Sess√£o T√©cnica 3 e Encerramento"
+    },
+    {
+      "event": "Escola de inverno",
+      "type": "satelite",
+      "section": "T√≥pico 1: Linha de varredura"
+    },
+    {
+      "event": "Escola de inverno",
+      "type": "satelite",
+      "section": "T√≥pico 2: Grafos"
+    },
+    {
+      "event": "SEMISH",
+      "type": "principal",
+      "section": "Sess√£o T√©cnica 4: Sistemas Inteligentes I"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Palestra 2 - Novas Incertezas: como enfrentamos velhos problemas em 2021"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Sess√£o T√©cnica 4"
+    },
+    {
+      "event": "JAI",
+      "type": "principal",
+      "section": "Ci√™ncia de Dados com Reprodutibilidade usando Jupyter"
+    },
+    {
+      "event": "CTIC",
+      "type": "principal",
+      "section": "Abertura; Palestras; Apresenta√ß√µes de Trabalhos; Encerramento"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess√£o T√©cnica 3 ‚Äì Projetos Pedag√≥gicos em Computa√ß√£o"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess√£o T√©cnica 4 ‚Äì Computa√ß√£o na Educa√ß√£o B√°sica 1"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "ACM/IEEE-CS Computing Curricula 2020: Perfis internacionais de carreiras em computa√ß√£o"
+    },
+    {
+      "event": "ETC",
+      "type": "satelite",
+      "section": "Palestra convidada"
+    },
+    {
+      "event": "ETC",
+      "type": "satelite",
+      "section": "Sess√£o t√©cnica 4"
+    },
+    {
+      "event": "WCAMA",
+      "type": "satelite",
+      "section": "Abertura; Sess√£o T√©cnica 1"
+    },
+    {
+      "event": "WCAMA",
+      "type": "satelite",
+      "section": "Sess√£o T√©cnica 2"
+    },
+    {
+      "event": "Escola de inverno",
+      "type": "satelite",
+      "section": "Abertura e Contest"
+    },
+    {
+      "event": "SEMISH",
+      "type": "principal",
+      "section": "Keynote 3: Data-Driven Cities: The Final Stretch "
+    },
+    {
+      "event": "SEMISH",
+      "type": "principal",
+      "section": "Sess√£o T√©cnica 5: Sistemas de Hardware e Software"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Sess√£o T√©cnica 5"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Palestra 3: Mulheres e Inova√ß√£o; Encerramento e Premia√ß√£o dos Melhores Artigos"
+    },
+    {
+      "event": "JAI",
+      "type": "principal",
+      "section": "M√©todos Experimentais em Intera√ß√£o Humano Computador"
+    },
+    {
+      "event": "BreSCI",
+      "type": "satelite",
+      "section": "Palestra de Abertura: Automatic Segmentation in Pediatric Brain MRIs"
+    },
+    {
+      "event": "BreSCI",
+      "type": "satelite",
+      "section": "Sess√£o T√©cnica ‚Äì Imagens, Visualiza√ß√£o "
+    },
+    {
+      "event": "BreSCI",
+      "type": "satelite",
+      "section": "Sess√£o T√©cnica ‚Äì Workflows"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess√£o T√©cnica 5 ‚Äì Projetos de Extens√£o"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess√£o T√©cnica 6 ‚Äì Ensino e Aprendizagem de Programa√ß√£o 1"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Painel: Educa√ß√£o B√°sica"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess√£o T√©cnica 7 ‚Äì Relatos de Experi√™ncia em Atividades"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess√£o T√©cnica 8 ‚Äì Pensamento Computacional 1"
+    },
+    {
+      "event": "Escola de inverno",
+      "type": "satelite",
+      "section": "Upsolving"
+    },
+    {
+      "event": "Escola de inverno",
+      "type": "satelite",
+      "section": "T√≥pico 3: programa√ß√£o din√¢mica"
+    },
+    {
+      "event": "WCAMA",
+      "type": "satelite",
+      "section": "Roda de di√°logos"
+    },
+    {
+      "event": "WCAMA",
+      "type": "satelite",
+      "section": "Sess√£o T√©cnica 3"
+    },
+    {
+      "event": "SEMISH",
+      "type": "principal",
+      "section": "Sess√£o T√©cnica VI: Sistemas Inteligentes II"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "F√≥rum Meninas Digitais - Tema: Meninas Digitais na Educa√ß√£o 5.0"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "F√≥rum Meninas Digitais: Programas de Mentoria em Tech: Loggi e Programa Meninas Digitais (Loggi-PMD/SBC)"
+    },
+    {
+      "event": "JAI",
+      "type": "principal",
+      "section": "M√©todos Experimentais em Intera√ß√£o Humano Computador"
+    },
+    {
+      "event": "BreSCI",
+      "type": "satelite",
+      "section": "Sess√£o T√©cnica ‚Äì Bioinform√°tica "
+    },
+    {
+      "event": "BreSCI",
+      "type": "satelite",
+      "section": "Sess√£o T√©cnica ‚Äì Ontologias e Dados"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Grupo de Trabalho: Licenciatura em Computa√ß√£o"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess√£o T√©cnica 9 ‚Äì Ensino de Temas em Engenharia de Software"
+    },
+    {
+      "event": "Escola de inverno",
+      "type": "satelite",
+      "section": "Contest"
+    },
+    {
+      "event": "Escola de inverno",
+      "type": "satelite",
+      "section": "Encerramento; Palestra: Americanas S.A. maratonando na tecnologia"
+    },
+    {
+      "event": "WCAMA",
+      "type": "satelite",
+      "section": "Sess√£o T√©cnica 4"
+    },
+    {
+      "event": "WCAMA",
+      "type": "satelite",
+      "section": "Sess√£o T√©cnica 5; Encerramento"
+    },
+    {
+      "event": "CAPES e CNPq",
+      "type": "extra",
+      "section": "Reuni√£o com os Representantes da CAPES e do CNPq"
+    },
+    {
+      "event": "COMPUTEC",
+      "type": "principal",
+      "section": "Abertura; Selo de Inova√ß√£o SBC"
+    },
+    {
+      "event": "COMPUTEC",
+      "type": "principal",
+      "section": "Painel: Os Habitats de inova√ß√£o como vetor de transforma√ß√£o digital"
+    },
+    {
+      "event": "SBCUP",
+      "type": "satelite",
+      "section": "Keynote 1: Motion intelligence toward efficient Internet edges"
+    },
+    {
+      "event": "SBCUP",
+      "type": "satelite",
+      "section": "Sess√£o T√©cnica: Internet das Coisas"
+    },
+    {
+      "event": "JAI",
+      "type": "principal",
+      "section": "Privacidade de Dados de Localiza√ß√£o: Modelos, T√©cnicas e Mecanismos"
+    },
+    {
+      "event": "BreSCI",
+      "type": "satelite",
+      "section": "Palestra convidada"
+    },
+    {
+      "event": "BreSCI",
+      "type": "satelite",
+      "section": "Sess√£o T√©cnica ‚Äì Deep Learning"
+    },
+    {
+      "event": "BreSCI",
+      "type": "satelite",
+      "section": "Encerramento"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Painel: Abrindo a caixa de Pandora do Ensino Remoto"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess√£o T√©cnica 10 ‚Äì Computa√ß√£o no Ensino B√°sico e em outros Cursos"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess√£o T√©cnica 11 ‚Äì Pensamento Computacional 2"
+    },
+    {
+      "event": "BraSNAM",
+      "type": "satelite",
+      "section": "Abertura; Artigo Convidado; ST: Best Full Papers"
+    },
+    {
+      "event": "WPerformance",
+      "type": "satelite",
+      "section": "Opening Session and Session: Internet of Things"
+    },
+    {
+      "event": "COMPUTEC",
+      "type": "principal",
+      "section": "Palestra: Desvendando os segredos de MLOPs (americanas.sa)"
+    },
+    {
+      "event": "COMPUTEC",
+      "type": "principal",
+      "section": "Palestra: Rumo a um Ecossistema na Cadeia Log√≠stica (Loggi)"
+    },
+    {
+      "event": "COMPUTEC",
+      "type": "principal",
+      "section": "Bate papo com os Organizadores do Livro ‚ÄúPonte para Inova√ß√£o: como criar um ecossistema empreendedor‚Äù"
+    },
+    {
+      "event": "SBCUP",
+      "type": "satelite",
+      "section": "Sess√£o T√©cnica: Ambientes Inteligentes"
+    },
+    {
+      "event": "JAI",
+      "type": "principal",
+      "section": "Privacidade de Dados de Localiza√ß√£o: Modelos, T√©cnicas e Mecanismos"
+    },
+    {
+      "event": "WCGE",
+      "type": "satelite",
+      "section": "Sess√£o 1 ‚Äì Relatos das Organiza√ß√µes"
+    },
+    {
+      "event": "WCGE",
+      "type": "satelite",
+      "section": "Sess√£o 2 ‚Äì Artigos Curtos"
+    },
+    {
+      "event": "WCGE",
+      "type": "satelite",
+      "section": "Painel"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Painel: Regulamenta√ß√£o da Profiss√£o e Certifica√ß√µes da SBC"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess√£o T√©cnica 12 ‚Äì √âtica, Filosofia e Pesquisa com Alunos de Gradua√ß√£o"
+    },
+    {
+      "event": "BraSNAM",
+      "type": "satelite",
+      "section": "ST: Argumenta√ß√£o e Discurso e Roda de Conversa"
+    },
+    {
+      "event": "BraSNAM",
+      "type": "satelite",
+      "section": "Palestra ‚Äì Redes Sociais: desafios e oportunidades de pesquisa"
+    },
+    {
+      "event": "BraSNAM",
+      "type": "satelite",
+      "section": "ST: Crime; ST: Best Short Papers; Artigo Convidado"
+    },
+    {
+      "event": "WPerformance",
+      "type": "satelite",
+      "section": "Keynote: Energy efficiency across programming languages: how do energy, time, and memory relate?"
+    },
+    {
+      "event": "WPerformance",
+      "type": "satelite",
+      "section": "Session: Cloud Computing and Blockchain"
+    },
+    {
+      "event": "Cerim√¥nia de Premia√ß√£o",
+      "type": "espacial",
+      "section": "Cerim√¥nia de Premia√ß√£o e Confraterniza√ß√£o Online"
+    },
+    {
+      "event": "COMPUTEC",
+      "type": "principal",
+      "section": "Painel Casos de Sucesso: Segware e Meliuz."
+    },
+    {
+      "event": "COMPUTEC",
+      "type": "principal",
+      "section": "Palestra: Rafael Costa (Jusbrasil) e Palestra: Maria Rita Spina Bueno (Anjos do Brasil)"
+    },
+    {
+      "event": "SBCUP",
+      "type": "satelite",
+      "section": "Painel: Perspectivas Futuras de Computa√ß√£o Ub√≠qua"
+    },
+    {
+      "event": "SBCUP",
+      "type": "satelite",
+      "section": "Sess√£o Computa√ß√£o em N√©voa e Distribu√≠da"
+    },
+    {
+      "event": "JAI",
+      "type": "principal",
+      "section": "Blockchain e Contratos Inteligentes para Aplica√ß√µes em IoT, uma Abordagem Pr√°tica"
+    },
+    {
+      "event": "WCGE",
+      "type": "satelite",
+      "section": "Sess√£o 3"
+    },
+    {
+      "event": "WCGE",
+      "type": "satelite",
+      "section": "Sess√£o 4"
+    },
+    {
+      "event": "WCGE",
+      "type": "satelite",
+      "section": "Keynote - Transforma√ß√£o Digital em tempos de pandemia"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Painel: Evas√£o e Reten√ß√£o em Cursos de Computa√ß√£o"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess√£o T√©cnica 13 ‚Äì Evas√£o e An√°lise de Egressos"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess√£o T√©cnica 14 ‚Äì Ensino e Aprendizagem de Programa√ß√£o 2"
+    },
+    {
+      "event": "BraSNAM",
+      "type": "satelite",
+      "section": "Artigo Convidado e ST: Covid"
+    },
+    {
+      "event": "BraSNAM",
+      "type": "satelite",
+      "section": "Painel Multidisciplinar ‚Äì Desafios e Futuro da An√°lise de Redes Sociais no Brasil"
+    },
+    {
+      "event": "WPerformance",
+      "type": "satelite",
+      "section": "Session Neural Networks"
+    },
+    {
+      "event": "WFIBRE",
+      "type": "satelite",
+      "section": "Abertura; RNP e o Apoio √† Pesquisa Experimental"
+    },
+    {
+      "event": "WFIBRE",
+      "type": "satelite",
+      "section": "Keynote: The Role and Relevance of Experimentation in Computer Science"
+    },
+    {
+      "event": "WFIBRE",
+      "type": "satelite",
+      "section": "Sess√£o 1: Pesquisa e Experimenta√ß√£o em Internet das Coisas (IoT)"
+    },
+    {
+      "event": "COMPUTEC",
+      "type": "principal",
+      "section": "Palestra: Iniciativas de Inova√ß√£o Digital do MCTI (Jos√© Gontijo)"
+    },
+    {
+      "event": "COMPUTEC",
+      "type": "principal",
+      "section": "Painel ‚Äì Meios de Pagamento. Encerramento"
+    },
+    {
+      "event": "COMPUTEC",
+      "type": "principal",
+      "section": "Encerramento do Computec"
+    },
+    {
+      "event": "SBCUP",
+      "type": "satelite",
+      "section": "Sess√£o Aplica√ß√µes Ub√≠quas e Pervasivas; Premia√ß√£o dos melhores trabalhos e encerramento"
+    },
+    {
+      "event": "JAI",
+      "type": "principal",
+      "section": "Blockchain e Contratos Inteligentes para Aplica√ß√µes em IoT, uma Abordagem Pr√°tica"
+    },
+    {
+      "event": "WCGE",
+      "type": "satelite",
+      "section": "Sess√£o 5"
+    },
+    {
+      "event": "WCGE",
+      "type": "satelite",
+      "section": "Sess√£o 6"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Fechamento"
+    },
+    {
+      "event": "BraSNAM",
+      "type": "satelite",
+      "section": "Artigos Convidados e ST: M√≠dias Sociais"
+    },
+    {
+      "event": "WPerformance",
+      "type": "satelite",
+      "section": "Keynote: Intelig√™ncia Artificial e Computa√ß√£o de Alto Desempenho"
+    },
+    {
+      "event": "WPerformance",
+      "type": "satelite",
+      "section": "Session: Real Time and Energy and Closing Session ‚Äì Best Paper Awards"
+    },
+    {
+      "event": "WFIBRE",
+      "type": "satelite",
+      "section": "Sess√£o 2: Pesquisas e Experimenta√ß√£o em Blockchain"
+    },
+    {
+      "event": "WFIBRE",
+      "type": "satelite",
+      "section": "Sess√£o 3: Pesquisas e Experimenta√ß√£o em Ciberseguran√ßa"
+    },
+    {
+      "event": "WCGE",
+      "type": "satelite",
+      "section": "Sess√£o 7"
+    },
+    {
+      "event": "WCGE",
+      "type": "satelite",
+      "section": "Sess√£o 8"
+    },
+    {
+      "event": "WFIBRE",
+      "type": "satelite",
+      "section": "Sess√£o 4: Pesquisas e Experimenta√ß√£o em programabilidade e orquestra√ß√£o Multicamadas de redes"
+    },
+    {
+      "event": "WFIBRE",
+      "type": "satelite",
+      "section": "Painel: Os desafios em oferecer Testbeds e Infraestruturas de Experimenta√ß√£o para √°reas de pesquisa cada vez mais especializadas e multidisciplinares"
+    },
+    {
+      "event": "WFIBRE",
+      "type": "satelite",
+      "section": "Estudos de caso"
+    },
+    {
+      "event": "WFIBRE",
+      "type": "satelite",
+      "section": "Fechamento do WFIBRE 2021"
+    },
+    {
+      "event": "BraSNAM",
+      "type": "satelite",
+      "section": "Bate-Papo: Perspectivas T√©cnico-pol√≠ticas sobre Redes Sociais no Brasil"
+    },
+    {
+      "event": "BraSNAM",
+      "type": "satelite",
+      "section": "Reuni√£o com a comunidade de Redes Sociais; Encerramento e Premia√ß√£o"
+    },
+    {
+      "event": "SBC",
+      "type": "espacial",
+      "section": "Conhe√ßa o Estande Virtual da SBC"
+    },
+    {
+      "event": "Ita√∫",
+      "type": "espacial",
+      "section": "Conhe√ßa o Estande Virtual da SBC"
+    },
+    {
+      "event": "CGI.br  NIC.br",
+      "type": "espacial",
+      "section": "Conhe√ßa o Estande Virtual do CGI.br  NIC.br"
+    },
+    {
+      "event": "americanas sa",
+      "type": "espacial",
+      "section": "Conhe√ßa o Estande Virtual da americanas sa"
+    },
+    {
+      "event": "JusBrasil",
+      "type": "espacial",
+      "section": "Conhe√ßa o Estande Virtual da JusBrasil"
+    },
+    {
+      "event": "Google",
+      "type": "espacial",
+      "section": "Conhe√ßa o Estande Virtual do Google"
+    },
+    {
+      "event": "Loggi",
+      "type": "espacial",
+      "section": "Conhe√ßa o Estande Virtual da Loggi"
+    },
+    {
+      "event": "Segware",
+      "type": "espacial",
+      "section": "Conhe√ßa o Estande Virtual da Segware"
+    },
+    {
+      "event": "Meliuz",
+      "type": "espacial",
+      "section": "Conhe√ßa o Estande Virtual da Meliuz"
+    },
+    {
+      "event": "ACATE",
+      "type": "espacial",
+      "section": "Conhe√ßa o Estande Virtual da ACATE"
+    },
+    {
+      "event": "Treino",
+      "type": "treino",
+      "section": "Sess√£o de Treino 1"
+    },
+    {
+      "event": "Treino",
+      "type": "treino",
+      "section": "Sess√£o de Treino 2"
+    },
+    {
+      "event": "Treino",
+      "type": "treino",
+      "section": "Sess√£o de Treino 3"
+    }
+  ]
+}{
+  "name": "Eventos",
+  "data": [
+    {
+      "event": "CQ",
+      "type": "principal",
+      "section": "MEC/SESU/SERES: Esclarecimentos sobre a criaÁ„o de cursos inovadores e experimentais; AÁıes da SBC "
+    },
+    {
+      "event": "WBL",
+      "type": "satelite",
+      "section": "Palestra convidada"
+    },
+    {
+      "event": "WBL",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica 1"
+    },
+    {
+      "event": "WPIETF",
+      "type": "satelite",
+      "section": "Opening session and keynote speaker"
+    },
+    {
+      "event": "WPIETF",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica 1"
+    },
+    {
+      "event": "CQ",
+      "type": "principal",
+      "section": "Relatos de experiÍncia de gestores de cursos experimentais/inovadores em execuÁ„o"
+    },
+    {
+      "event": "WBL",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica 2"
+    },
+    {
+      "event": "WBL",
+      "type": "satelite",
+      "section": "Palestra convidada"
+    },
+    {
+      "event": "WPIETF",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica 2"
+    },
+    {
+      "event": "WPIETF",
+      "type": "satelite",
+      "section": "Palestra: Human Rights considerations in protocols design and deployment. Closing Session and Best paper award"
+    },
+    {
+      "event": "SEMISH",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 1: Cloud, SDN e Processamento de Alto Desempenho"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Reuni„o com Projetos Parceiros do Programa Meninas Digitais"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 1"
+    },
+    {
+      "event": "FÛrum PG",
+      "type": "extra",
+      "section": "Abertura; Conversa sobre os GTs do FÛrum"
+    },
+    {
+      "event": "FÛrum PG",
+      "type": "extra",
+      "section": "Painel ìGest„o da PÛs-GraduaÁ„o em Tempos de Recursos Escassosî "
+    },
+    {
+      "event": "CTD",
+      "type": "principal",
+      "section": "Teses de doutorado"
+    },
+    {
+      "event": "ENCOMPIF",
+      "type": "satelite",
+      "section": "Trilha: ensino mÈdio"
+    },
+    {
+      "event": "ENCOMPIF",
+      "type": "satelite",
+      "section": "Trilha: graduaÁ„o e pÛs-graduaÁ„o"
+    },
+    {
+      "event": "ETC",
+      "type": "satelite",
+      "section": "Abertura e Sess„o tÈcnica 1"
+    },
+    {
+      "event": "WICS",
+      "type": "satelite",
+      "section": "Abertura e Sess„o TÈcnica 1 "
+    },
+    {
+      "event": "WICS",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica 2"
+    },
+    {
+      "event": "WASHES",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica 1"
+    },
+    {
+      "event": "SEMISH",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 2: Dispositivo MÛvel, Sem Fio e Ubiquidade"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 2"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Artigos curtos - sala 01"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Artigos curtos - sala 02"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Artigos curtos - sala 03"
+    },
+    {
+      "event": "FÛrum PG",
+      "type": "extra",
+      "section": "Conversa com membros do CA-CC/CAPES"
+    },
+    {
+      "event": "FÛrum PG",
+      "type": "extra",
+      "section": "Assuntos administrativos do FÛrum "
+    },
+    {
+      "event": "CTD",
+      "type": "principal",
+      "section": "DissertaÁıes de Mestrado I"
+    },
+    {
+      "event": "ENCOMPIF",
+      "type": "satelite",
+      "section": "PremiaÁ„o do melhor trabalho de ensino mÈdio e Trilha: graduaÁ„o e pÛs-graduaÁ„o"
+    },
+    {
+      "event": "ENCOMPIF",
+      "type": "satelite",
+      "section": "Trilha: trabalhos dos professores"
+    },
+    {
+      "event": "ETC",
+      "type": "satelite",
+      "section": "Sess„o tÈcnica 2"
+    },
+    {
+      "event": "WASHES",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica 2"
+    },
+    {
+      "event": "WASHES",
+      "type": "satelite",
+      "section": "Encerramento"
+    },
+    {
+      "event": "SEMISH",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 3: Sistemas MultimÌdia e Web"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 3"
+    },
+    {
+      "event": "JAI",
+      "type": "principal",
+      "section": "CiÍncia de Dados com Reprodutibilidade usando Jupyter"
+    },
+    {
+      "event": "CTD",
+      "type": "principal",
+      "section": "DissertaÁıes de Mestrado II"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Abertura WEI 2021 ñ Melhores artigos e Melhores Revisores"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 1 ñ Ensino Remoto Emergencial"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 2 ñ Ensino de Temas em ComputaÁ„o"
+    },
+    {
+      "event": "ETC",
+      "type": "satelite",
+      "section": "Sess„o tÈcnica 3"
+    },
+    {
+      "event": "WICS",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica 3 e Encerramento"
+    },
+    {
+      "event": "Escola de inverno",
+      "type": "satelite",
+      "section": "TÛpico 1: Linha de varredura"
+    },
+    {
+      "event": "Escola de inverno",
+      "type": "satelite",
+      "section": "TÛpico 2: Grafos"
+    },
+    {
+      "event": "SEMISH",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 4: Sistemas Inteligentes I"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 4"
+    },
+    {
+      "event": "JAI",
+      "type": "principal",
+      "section": "CiÍncia de Dados com Reprodutibilidade usando Jupyter"
+    },
+    {
+      "event": "CTIC",
+      "type": "principal",
+      "section": "Abertura; Palestras; ApresentaÁıes de Trabalhos; Encerramento"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 3 ñ Projetos PedagÛgicos em ComputaÁ„o"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 4 ñ ComputaÁ„o na EducaÁ„o B·sica 1"
+    },
+    {
+      "event": "ETC",
+      "type": "satelite",
+      "section": "Palestra convidada"
+    },
+    {
+      "event": "ETC",
+      "type": "satelite",
+      "section": "Sess„o tÈcnica 4"
+    },
+    {
+      "event": "WCAMA",
+      "type": "satelite",
+      "section": "Abertura; Sess„o TÈcnica 1"
+    },
+    {
+      "event": "WCAMA",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica 2"
+    },
+    {
+      "event": "Escola de inverno",
+      "type": "satelite",
+      "section": "Abertura e Contest"
+    },
+    {
+      "event": "SEMISH",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 5: Sistemas de Hardware e Software"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 5"
+    },
+    {
+      "event": "JAI",
+      "type": "principal",
+      "section": "MÈtodos Experimentais em InteraÁ„o Humano Computador"
+    },
+    {
+      "event": "BreSCI",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica ñ Imagens, VisualizaÁ„o "
+    },
+    {
+      "event": "BreSCI",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica ñ Workflows"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 5 ñ Projetos de Extens„o"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 6 ñ Ensino e Aprendizagem de ProgramaÁ„o 1"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 7 ñ Relatos de ExperiÍncia em Atividades"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 8 ñ Pensamento Computacional 1"
+    },
+    {
+      "event": "Escola de inverno",
+      "type": "satelite",
+      "section": "Upsolving"
+    },
+    {
+      "event": "Escola de inverno",
+      "type": "satelite",
+      "section": "TÛpico 3: programaÁ„o din‚mica"
+    },
+    {
+      "event": "WCAMA",
+      "type": "satelite",
+      "section": "Roda de di·logos"
+    },
+    {
+      "event": "WCAMA",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica 3"
+    },
+    {
+      "event": "SEMISH",
+      "type": "principal",
+      "section": "Sess„o TÈcnica VI: Sistemas Inteligentes II"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "FÛrum Meninas Digitais - Tema: Meninas Digitais na EducaÁ„o 5.0"
+    },
+    {
+      "event": "JAI",
+      "type": "principal",
+      "section": "MÈtodos Experimentais em InteraÁ„o Humano Computador"
+    },
+    {
+      "event": "BreSCI",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica ñ Bioinform·tica "
+    },
+    {
+      "event": "BreSCI",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica ñ Ontologias e Dados"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Grupo de Trabalho: Licenciatura em ComputaÁ„o"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 9 ñ Ensino de Temas em Engenharia de Software"
+    },
+    {
+      "event": "Escola de inverno",
+      "type": "satelite",
+      "section": "Contest"
+    },
+    {
+      "event": "WCAMA",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica 4"
+    },
+    {
+      "event": "WCAMA",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica 5; Encerramento"
+    },
+    {
+      "event": "CAPES e CNPq",
+      "type": "extra",
+      "section": "Reuni„o com os Representantes da CAPES e do CNPq"
+    },
+    {
+      "event": "SBCUP",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica: Internet das Coisas"
+    },
+    {
+      "event": "JAI",
+      "type": "principal",
+      "section": "Privacidade de Dados de LocalizaÁ„o: Modelos, TÈcnicas e Mecanismos"
+    },
+    {
+      "event": "BreSCI",
+      "type": "satelite",
+      "section": "Palestra convidada"
+    },
+    {
+      "event": "BreSCI",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica ñ Deep Learning"
+    },
+    {
+      "event": "BreSCI",
+      "type": "satelite",
+      "section": "Encerramento"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 10 ñ ComputaÁ„o no Ensino B·sico e em outros Cursos"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 11 ñ Pensamento Computacional 2"
+    },
+    {
+      "event": "BraSNAM",
+      "type": "satelite",
+      "section": "Abertura; Artigo Convidado; ST: Best Full Papers"
+    },
+    {
+      "event": "WPerformance",
+      "type": "satelite",
+      "section": "Opening Session and Session: Internet of Things"
+    },
+    {
+      "event": "SBCUP",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica: Ambientes Inteligentes"
+    },
+    {
+      "event": "JAI",
+      "type": "principal",
+      "section": "Privacidade de Dados de LocalizaÁ„o: Modelos, TÈcnicas e Mecanismos"
+    },
+    {
+      "event": "WCGE",
+      "type": "satelite",
+      "section": "Sess„o 1 ñ Relatos das OrganizaÁıes"
+    },
+    {
+      "event": "WCGE",
+      "type": "satelite",
+      "section": "Sess„o 2 ñ Artigos Curtos"
+    },
+    {
+      "event": "WCGE",
+      "type": "satelite",
+      "section": "Painel"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 12 ñ …tica, Filosofia e Pesquisa com Alunos de GraduaÁ„o"
+    },
+    {
+      "event": "BraSNAM",
+      "type": "satelite",
+      "section": "ST: ArgumentaÁ„o e Discurso e Roda de Conversa"
+    },
+    {
+      "event": "BraSNAM",
+      "type": "satelite",
+      "section": "ST: Crime; ST: Best Short Papers; Artigo Convidado"
+    },
+    {
+      "event": "WPerformance",
+      "type": "satelite",
+      "section": "Session: Cloud Computing and Blockchain"
+    },
+    {
+      "event": "SBCUP",
+      "type": "satelite",
+      "section": "Painel: Perspectivas Futuras de ComputaÁ„o UbÌqua"
+    },
+    {
+      "event": "SBCUP",
+      "type": "satelite",
+      "section": "Sess„o ComputaÁ„o em NÈvoa e DistribuÌda"
+    },
+    {
+      "event": "JAI",
+      "type": "principal",
+      "section": "Blockchain e Contratos Inteligentes para AplicaÁıes em IoT, uma Abordagem Pr·tica"
+    },
+    {
+      "event": "WCGE",
+      "type": "satelite",
+      "section": "Sess„o 3"
+    },
+    {
+      "event": "WCGE",
+      "type": "satelite",
+      "section": "Sess„o 4"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 13 ñ Evas„o e An·lise de Egressos"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 14 ñ Ensino e Aprendizagem de ProgramaÁ„o 2"
+    },
+    {
+      "event": "BraSNAM",
+      "type": "satelite",
+      "section": "Artigo Convidado e ST: Covid"
+    },
+    {
+      "event": "BraSNAM",
+      "type": "satelite",
+      "section": "Painel Multidisciplinar ñ Desafios e Futuro da An·lise de Redes Sociais no Brasil"
+    },
+    {
+      "event": "WPerformance",
+      "type": "satelite",
+      "section": "Session Neural Networks"
+    },
+    {
+      "event": "WFIBRE",
+      "type": "satelite",
+      "section": "Abertura; RNP e o Apoio ‡ Pesquisa Experimental"
+    },
+    {
+      "event": "WFIBRE",
+      "type": "satelite",
+      "section": "Keynote: The Role and Relevance of Experimentation in Computer Science"
+    },
+    {
+      "event": "WFIBRE",
+      "type": "satelite",
+      "section": "Sess„o 1: Pesquisa e ExperimentaÁ„o em Internet das Coisas (IoT)"
+    },
+    {
+      "event": "SBCUP",
+      "type": "satelite",
+      "section": "Sess„o AplicaÁıes UbÌquas e Pervasivas; PremiaÁ„o dos melhores trabalhos e encerramento"
+    },
+    {
+      "event": "JAI",
+      "type": "principal",
+      "section": "Blockchain e Contratos Inteligentes para AplicaÁıes em IoT, uma Abordagem Pr·tica"
+    },
+    {
+      "event": "WCGE",
+      "type": "satelite",
+      "section": "Sess„o 5"
+    },
+    {
+      "event": "WCGE",
+      "type": "satelite",
+      "section": "Sess„o 6"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Fechamento"
+    },
+    {
+      "event": "BraSNAM",
+      "type": "satelite",
+      "section": "Artigos Convidados e ST: MÌdias Sociais"
+    },
+    {
+      "event": "WPerformance",
+      "type": "satelite",
+      "section": "Keynote: InteligÍncia Artificial e ComputaÁ„o de Alto Desempenho"
+    },
+    {
+      "event": "WPerformance",
+      "type": "satelite",
+      "section": "Session: Real Time and Energy and Closing Session ñ Best Paper Awards"
+    },
+    {
+      "event": "WFIBRE",
+      "type": "satelite",
+      "section": "Sess„o 2: Pesquisas e ExperimentaÁ„o em Blockchain"
+    },
+    {
+      "event": "WFIBRE",
+      "type": "satelite",
+      "section": "Sess„o 3: Pesquisas e ExperimentaÁ„o em CiberseguranÁa"
+    },
+    {
+      "event": "WCGE",
+      "type": "satelite",
+      "section": "Sess„o 7"
+    },
+    {
+      "event": "WCGE",
+      "type": "satelite",
+      "section": "Sess„o 8"
+    },
+    {
+      "event": "WFIBRE",
+      "type": "satelite",
+      "section": "Sess„o 4: Pesquisas e ExperimentaÁ„o em programabilidade e orquestraÁ„o Multicamadas de redes"
+    },
+    {
+      "event": "WFIBRE",
+      "type": "satelite",
+      "section": "Estudos de caso"
+    },
+    {
+      "event": "WFIBRE",
+      "type": "satelite",
+      "section": "Fechamento do WFIBRE 2021"
+    },
+    {
+      "event": "BraSNAM",
+      "type": "satelite",
+      "section": "Bate-Papo: Perspectivas TÈcnico-polÌticas sobre Redes Sociais no Brasil"
+    },
+    {
+      "event": "BraSNAM",
+      "type": "satelite",
+      "section": "Reuni„o com a comunidade de Redes Sociais; Encerramento e PremiaÁ„o"
+    }
+  ]
+}{
+  "name": "Eventos",
+  "data": [
+    {
+      "event": "CQ",
+      "type": "principal",
+      "section": "MEC/SESU/SERES: Esclarecimentos sobre a criaÁ„o de cursos inovadores e experimentais; AÁıes da SBC "
+    },
+    {
+      "event": "WBL",
+      "type": "satelite",
+      "section": "Palestra convidada"
+    },
+    {
+      "event": "WBL",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica 1"
+    },
+    {
+      "event": "WPIETF",
+      "type": "satelite",
+      "section": "Opening session and keynote speaker"
+    },
+    {
+      "event": "WPIETF",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica 1"
+    },
+    {
+      "event": "CQ",
+      "type": "principal",
+      "section": "Relatos de experiÍncia de gestores de cursos experimentais/inovadores em execuÁ„o"
+    },
+    {
+      "event": "WBL",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica 2"
+    },
+    {
+      "event": "WBL",
+      "type": "satelite",
+      "section": "Palestra convidada"
+    },
+    {
+      "event": "WPIETF",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica 2"
+    },
+    {
+      "event": "WPIETF",
+      "type": "satelite",
+      "section": "Palestra: Human Rights considerations in protocols design and deployment. Closing Session and Best paper award"
+    },
+    {
+      "event": "SEMISH",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 1: Cloud, SDN e Processamento de Alto Desempenho"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Reuni„o com Projetos Parceiros do Programa Meninas Digitais"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 1"
+    },
+    {
+      "event": "FÛrum PG",
+      "type": "extra",
+      "section": "Abertura; Conversa sobre os GTs do FÛrum"
+    },
+    {
+      "event": "FÛrum PG",
+      "type": "extra",
+      "section": "Painel ìGest„o da PÛs-GraduaÁ„o em Tempos de Recursos Escassosî "
+    },
+    {
+      "event": "CTD",
+      "type": "principal",
+      "section": "Teses de doutorado"
+    },
+    {
+      "event": "ENCOMPIF",
+      "type": "satelite",
+      "section": "Trilha: ensino mÈdio"
+    },
+    {
+      "event": "ENCOMPIF",
+      "type": "satelite",
+      "section": "Trilha: graduaÁ„o e pÛs-graduaÁ„o"
+    },
+    {
+      "event": "ETC",
+      "type": "satelite",
+      "section": "Abertura e Sess„o tÈcnica 1"
+    },
+    {
+      "event": "WICS",
+      "type": "satelite",
+      "section": "Abertura e Sess„o TÈcnica 1 "
+    },
+    {
+      "event": "WICS",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica 2"
+    },
+    {
+      "event": "WASHES",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica 1"
+    },
+    {
+      "event": "SEMISH",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 2: Dispositivo MÛvel, Sem Fio e Ubiquidade"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 2"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Artigos curtos - sala 01"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Artigos curtos - sala 02"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Artigos curtos - sala 03"
+    },
+    {
+      "event": "FÛrum PG",
+      "type": "extra",
+      "section": "Conversa com membros do CA-CC/CAPES"
+    },
+    {
+      "event": "FÛrum PG",
+      "type": "extra",
+      "section": "Assuntos administrativos do FÛrum "
+    },
+    {
+      "event": "CTD",
+      "type": "principal",
+      "section": "DissertaÁıes de Mestrado I"
+    },
+    {
+      "event": "ENCOMPIF",
+      "type": "satelite",
+      "section": "PremiaÁ„o do melhor trabalho de ensino mÈdio e Trilha: graduaÁ„o e pÛs-graduaÁ„o"
+    },
+    {
+      "event": "ENCOMPIF",
+      "type": "satelite",
+      "section": "Trilha: trabalhos dos professores"
+    },
+    {
+      "event": "ETC",
+      "type": "satelite",
+      "section": "Sess„o tÈcnica 2"
+    },
+    {
+      "event": "WASHES",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica 2"
+    },
+    {
+      "event": "WASHES",
+      "type": "satelite",
+      "section": "Encerramento"
+    },
+    {
+      "event": "SEMISH",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 3: Sistemas MultimÌdia e Web"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 3"
+    },
+    {
+      "event": "JAI",
+      "type": "principal",
+      "section": "CiÍncia de Dados com Reprodutibilidade usando Jupyter"
+    },
+    {
+      "event": "CTD",
+      "type": "principal",
+      "section": "DissertaÁıes de Mestrado II"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Abertura WEI 2021 ñ Melhores artigos e Melhores Revisores"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 1 ñ Ensino Remoto Emergencial"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 2 ñ Ensino de Temas em ComputaÁ„o"
+    },
+    {
+      "event": "ETC",
+      "type": "satelite",
+      "section": "Sess„o tÈcnica 3"
+    },
+    {
+      "event": "WICS",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica 3 e Encerramento"
+    },
+    {
+      "event": "Escola de inverno",
+      "type": "satelite",
+      "section": "TÛpico 1: Linha de varredura"
+    },
+    {
+      "event": "Escola de inverno",
+      "type": "satelite",
+      "section": "TÛpico 2: Grafos"
+    },
+    {
+      "event": "SEMISH",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 4: Sistemas Inteligentes I"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 4"
+    },
+    {
+      "event": "JAI",
+      "type": "principal",
+      "section": "CiÍncia de Dados com Reprodutibilidade usando Jupyter"
+    },
+    {
+      "event": "CTIC",
+      "type": "principal",
+      "section": "Abertura; Palestras; ApresentaÁıes de Trabalhos; Encerramento"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 3 ñ Projetos PedagÛgicos em ComputaÁ„o"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 4 ñ ComputaÁ„o na EducaÁ„o B·sica 1"
+    },
+    {
+      "event": "ETC",
+      "type": "satelite",
+      "section": "Palestra convidada"
+    },
+    {
+      "event": "ETC",
+      "type": "satelite",
+      "section": "Sess„o tÈcnica 4"
+    },
+    {
+      "event": "WCAMA",
+      "type": "satelite",
+      "section": "Abertura; Sess„o TÈcnica 1"
+    },
+    {
+      "event": "WCAMA",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica 2"
+    },
+    {
+      "event": "Escola de inverno",
+      "type": "satelite",
+      "section": "Abertura e Contest"
+    },
+    {
+      "event": "SEMISH",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 5: Sistemas de Hardware e Software"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 5"
+    },
+    {
+      "event": "JAI",
+      "type": "principal",
+      "section": "MÈtodos Experimentais em InteraÁ„o Humano Computador"
+    },
+    {
+      "event": "BreSCI",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica ñ Imagens, VisualizaÁ„o "
+    },
+    {
+      "event": "BreSCI",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica ñ Workflows"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 5 ñ Projetos de Extens„o"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 6 ñ Ensino e Aprendizagem de ProgramaÁ„o 1"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 7 ñ Relatos de ExperiÍncia em Atividades"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 8 ñ Pensamento Computacional 1"
+    },
+    {
+      "event": "Escola de inverno",
+      "type": "satelite",
+      "section": "Upsolving"
+    },
+    {
+      "event": "Escola de inverno",
+      "type": "satelite",
+      "section": "TÛpico 3: programaÁ„o din‚mica"
+    },
+    {
+      "event": "WCAMA",
+      "type": "satelite",
+      "section": "Roda de di·logos"
+    },
+    {
+      "event": "WCAMA",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica 3"
+    },
+    {
+      "event": "SEMISH",
+      "type": "principal",
+      "section": "Sess„o TÈcnica VI: Sistemas Inteligentes II"
+    },
+    {
+      "event": "WIT",
+      "type": "principal",
+      "section": "FÛrum Meninas Digitais - Tema: Meninas Digitais na EducaÁ„o 5.0"
+    },
+    {
+      "event": "JAI",
+      "type": "principal",
+      "section": "MÈtodos Experimentais em InteraÁ„o Humano Computador"
+    },
+    {
+      "event": "BreSCI",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica ñ Bioinform·tica "
+    },
+    {
+      "event": "BreSCI",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica ñ Ontologias e Dados"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Grupo de Trabalho: Licenciatura em ComputaÁ„o"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 9 ñ Ensino de Temas em Engenharia de Software"
+    },
+    {
+      "event": "Escola de inverno",
+      "type": "satelite",
+      "section": "Contest"
+    },
+    {
+      "event": "WCAMA",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica 4"
+    },
+    {
+      "event": "WCAMA",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica 5; Encerramento"
+    },
+    {
+      "event": "CAPES e CNPq",
+      "type": "extra",
+      "section": "Reuni„o com os Representantes da CAPES e do CNPq"
+    },
+    {
+      "event": "SBCUP",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica: Internet das Coisas"
+    },
+    {
+      "event": "JAI",
+      "type": "principal",
+      "section": "Privacidade de Dados de LocalizaÁ„o: Modelos, TÈcnicas e Mecanismos"
+    },
+    {
+      "event": "BreSCI",
+      "type": "satelite",
+      "section": "Palestra convidada"
+    },
+    {
+      "event": "BreSCI",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica ñ Deep Learning"
+    },
+    {
+      "event": "BreSCI",
+      "type": "satelite",
+      "section": "Encerramento"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 10 ñ ComputaÁ„o no Ensino B·sico e em outros Cursos"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 11 ñ Pensamento Computacional 2"
+    },
+    {
+      "event": "BraSNAM",
+      "type": "satelite",
+      "section": "Abertura; Artigo Convidado; ST: Best Full Papers"
+    },
+    {
+      "event": "WPerformance",
+      "type": "satelite",
+      "section": "Opening Session and Session: Internet of Things"
+    },
+    {
+      "event": "SBCUP",
+      "type": "satelite",
+      "section": "Sess„o TÈcnica: Ambientes Inteligentes"
+    },
+    {
+      "event": "JAI",
+      "type": "principal",
+      "section": "Privacidade de Dados de LocalizaÁ„o: Modelos, TÈcnicas e Mecanismos"
+    },
+    {
+      "event": "WCGE",
+      "type": "satelite",
+      "section": "Sess„o 1 ñ Relatos das OrganizaÁıes"
+    },
+    {
+      "event": "WCGE",
+      "type": "satelite",
+      "section": "Sess„o 2 ñ Artigos Curtos"
+    },
+    {
+      "event": "WCGE",
+      "type": "satelite",
+      "section": "Painel"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 12 ñ …tica, Filosofia e Pesquisa com Alunos de GraduaÁ„o"
+    },
+    {
+      "event": "BraSNAM",
+      "type": "satelite",
+      "section": "ST: ArgumentaÁ„o e Discurso e Roda de Conversa"
+    },
+    {
+      "event": "BraSNAM",
+      "type": "satelite",
+      "section": "ST: Crime; ST: Best Short Papers; Artigo Convidado"
+    },
+    {
+      "event": "WPerformance",
+      "type": "satelite",
+      "section": "Session: Cloud Computing and Blockchain"
+    },
+    {
+      "event": "SBCUP",
+      "type": "satelite",
+      "section": "Painel: Perspectivas Futuras de ComputaÁ„o UbÌqua"
+    },
+    {
+      "event": "SBCUP",
+      "type": "satelite",
+      "section": "Sess„o ComputaÁ„o em NÈvoa e DistribuÌda"
+    },
+    {
+      "event": "JAI",
+      "type": "principal",
+      "section": "Blockchain e Contratos Inteligentes para AplicaÁıes em IoT, uma Abordagem Pr·tica"
+    },
+    {
+      "event": "WCGE",
+      "type": "satelite",
+      "section": "Sess„o 3"
+    },
+    {
+      "event": "WCGE",
+      "type": "satelite",
+      "section": "Sess„o 4"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 13 ñ Evas„o e An·lise de Egressos"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Sess„o TÈcnica 14 ñ Ensino e Aprendizagem de ProgramaÁ„o 2"
+    },
+    {
+      "event": "BraSNAM",
+      "type": "satelite",
+      "section": "Artigo Convidado e ST: Covid"
+    },
+    {
+      "event": "BraSNAM",
+      "type": "satelite",
+      "section": "Painel Multidisciplinar ñ Desafios e Futuro da An·lise de Redes Sociais no Brasil"
+    },
+    {
+      "event": "WPerformance",
+      "type": "satelite",
+      "section": "Session Neural Networks"
+    },
+    {
+      "event": "WFIBRE",
+      "type": "satelite",
+      "section": "Abertura; RNP e o Apoio ‡ Pesquisa Experimental"
+    },
+    {
+      "event": "WFIBRE",
+      "type": "satelite",
+      "section": "Keynote: The Role and Relevance of Experimentation in Computer Science"
+    },
+    {
+      "event": "WFIBRE",
+      "type": "satelite",
+      "section": "Sess„o 1: Pesquisa e ExperimentaÁ„o em Internet das Coisas (IoT)"
+    },
+    {
+      "event": "SBCUP",
+      "type": "satelite",
+      "section": "Sess„o AplicaÁıes UbÌquas e Pervasivas; PremiaÁ„o dos melhores trabalhos e encerramento"
+    },
+    {
+      "event": "JAI",
+      "type": "principal",
+      "section": "Blockchain e Contratos Inteligentes para AplicaÁıes em IoT, uma Abordagem Pr·tica"
+    },
+    {
+      "event": "WCGE",
+      "type": "satelite",
+      "section": "Sess„o 5"
+    },
+    {
+      "event": "WCGE",
+      "type": "satelite",
+      "section": "Sess„o 6"
+    },
+    {
+      "event": "WEI",
+      "type": "principal",
+      "section": "Fechamento"
+    },
+    {
+      "event": "BraSNAM",
+      "type": "satelite",
+      "section": "Artigos Convidados e ST: MÌdias Sociais"
+    },
+    {
+      "event": "WPerformance",
+      "type": "satelite",
+      "section": "Keynote: InteligÍncia Artificial e ComputaÁ„o de Alto Desempenho"
+    },
+    {
+      "event": "WPerformance",
+      "type": "satelite",
+      "section": "Session: Real Time and Energy and Closing Session ñ Best Paper Awards"
+    },
+    {
+      "event": "WFIBRE",
+      "type": "satelite",
+      "section": "Sess„o 2: Pesquisas e ExperimentaÁ„o em Blockchain"
+    },
+    {
+      "event": "WFIBRE",
+      "type": "satelite",
+      "section": "Sess„o 3: Pesquisas e ExperimentaÁ„o em CiberseguranÁa"
+    },
+    {
+      "event": "WCGE",
+      "type": "satelite",
+      "section": "Sess„o 7"
+    },
+    {
+      "event": "WCGE",
+      "type": "satelite",
+      "section": "Sess„o 8"
+    },
+    {
+      "event": "WFIBRE",
+      "type": "satelite",
+      "section": "Sess„o 4: Pesquisas e ExperimentaÁ„o em programabilidade e orquestraÁ„o Multicamadas de redes"
+    },
+    {
+      "event": "WFIBRE",
+      "type": "satelite",
+      "section": "Estudos de caso"
+    },
+    {
+      "event": "WFIBRE",
+      "type": "satelite",
+      "section": "Fechamento do WFIBRE 2021"
+    },
+    {
+      "event": "BraSNAM",
+      "type": "satelite",
+      "section": "Bate-Papo: Perspectivas TÈcnico-polÌticas sobre Redes Sociais no Brasil"
+    },
+    {
+      "event": "BraSNAM",
+      "type": "satelite",
+      "section": "Reuni„o com a comunidade de Redes Sociais; Encerramento e PremiaÁ„o"
+    }
+  ]
+}

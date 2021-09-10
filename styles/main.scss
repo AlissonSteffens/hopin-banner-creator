@@ -8,6 +8,7 @@ body {
   padding: 0;
 }
 
+
 .nav {
   display: flex;
   background-color: #ddd;
@@ -63,7 +64,7 @@ body {
         border-radius: 5px;
         margin-bottom: 0;
         font-weight: 700;
-        font-size: .9rem;
+        font-size: 0.9rem;
         background-color: #e8e8e8;
         color: #555;
         &:hover {
@@ -71,7 +72,6 @@ body {
         }
       }
     }
-    
   }
   .card-text img {
     width: 100%;
@@ -89,9 +89,7 @@ body {
     color: #333;
     font-weight: 700;
   }
-  
 }
-
 
 // style the select element to be like bootstrap's
 select {
@@ -150,7 +148,6 @@ select {
   }
 }
 
-
 #info-template {
   display: none;
 }
@@ -169,6 +166,26 @@ select {
     .content-wrap {
       background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/hopin/bg.jpg");
     }
+    &.satelite {
+      .content-wrap {
+        background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/hopin/bg2.jpg");
+      }
+    }
+    &.extra {
+      .content-wrap {
+        background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/hopin/bg3.jpg");
+      }
+    }
+    &.espacial {
+      .content-wrap {
+        background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/hopin/bg5.jpg");
+      }
+    }
+    &.treino {
+      .content-wrap {
+        background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/hopin/bg4.jpg");
+      }
+    }
   }
   &.youtube {
     width: 1280px;
@@ -179,6 +196,27 @@ select {
     max-height: 720px;
     .content-wrap {
       background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/youtube/bg.jpg");
+    }
+  }
+  &.expo {
+    width: 1500px;
+    min-width: 1500px;
+    max-width: 1500px;
+    height: 750px;
+    min-height: 750px;
+    max-height: 750px;
+    .content {
+      display: none !important;
+    }
+    .content-wrap {
+      background: url("/themes/expo/bg.png");
+    }
+    position: relative;
+    overflow: hidden;
+    .water-mark {
+      position: absolute;
+      bottom: -550px;
+      right: -700px;
     }
   }
   .topline {
@@ -215,18 +253,18 @@ select {
         font-weight: 900;
         font-size: 65px;
         text-align: center;
-        small{
+        small {
           font-size: 50px;
           font-weight: 500;
           display: block;
         }
       }
-      .people{
+      .people {
         text-align: center;
         font-size: 25px;
         color: $amarelo;
         font-weight: 700;
-        small{
+        small {
           color: white;
           font-weight: 500;
           font-size: 18px;
@@ -237,31 +275,11 @@ select {
   &.long {
     .session {
       font-size: 36px !important;
-      small{
+      small {
         font-size: 24px !important;
         font-weight: 500;
         display: block;
       }
-    }
-  }
-  &.satelite {
-    .content-wrap {
-      background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/hopin/bg2.jpg");
-    }
-  }
-  &.extra {
-    .content-wrap {
-      background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/hopin/bg3.jpg");
-    }
-  }
-  &.espacial {
-    .content-wrap {
-      background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/hopin/bg5.jpg");
-    }
-  }
-  &.treino {
-    .content-wrap {
-      background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/hopin/bg4.jpg");
     }
   }
 }
@@ -276,6 +294,7 @@ select {
   display: none;
 }
 #hopin-template,
-#youtube-template {
+#youtube-template,
+#expo-template {
   display: none;
 }

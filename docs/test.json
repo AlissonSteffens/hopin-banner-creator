@@ -1,0 +1,348 @@
+[
+  {
+    "event": "Abertura",
+    "type": "principal",
+    "section": "Sessão de abertura do XLI Congresso da Sociedade Brasileira de Computação (CSBC)"
+  },
+  { "event": "Assembleia SBC", "type": "extra", "section": "Assembleia SBC" },
+  {
+    "event": "Encerramento",
+    "type": "principal",
+    "section": "Sessão de encerramento do XLI Congresso da Sociedade Brasileira de Computação (CSBC)"
+  },
+  {
+    "event": "Seminário de Computação na Universidade",
+    "type": "principal",
+    "section": "Painel: Seminário de Computação na Universidade"
+  },
+  {
+    "event": "Seminário de Computação na Universidade",
+    "type": "principal",
+    "section": "Painel: Seminário de Computação na Universidade"
+  },
+  {
+    "event": "Seminário de Computação na Universidade",
+    "type": "principal",
+    "section": "Painel: Seminário de Computação na Universidade"
+  },
+  {
+    "event": "Curso de Qualidade",
+    "type": "principal",
+    "section": "MEC/SESU/SERES: Esclarecimentos sobre a criação de cursos inovadores e experimentais; Ações da SBC – Educação para Criação de Referenciais para os Cursos de Ciência de Dados, Cybersecurity e Inteligência Artificial"
+  },
+  {
+    "event": "Workshop Brasileiro de Lógica",
+    "type": "satelite",
+    "section": "Sessão Técnica 1"
+  },
+  {
+    "event": "Workshop Pré-IETF/IRTF",
+    "type": "satelite",
+    "section": "Sessão Técnica 1"
+  },
+  {
+    "event": "Curso de Qualidade",
+    "type": "principal",
+    "section": "Relatos de experiência de gestores de cursos experimentais/inovadores em execução"
+  },
+  {
+    "event": "Workshop Brasileiro de Lógica",
+    "type": "satelite",
+    "section": "Sessão Técnica 2"
+  },
+  {
+    "event": "Workshop Pré-IETF/IRTF",
+    "type": "satelite",
+    "section": "Painel: Vantagens, Soluções e Oportunidades: Aumentando a participação da sociedade nos processos do IETF/IRTF"
+  },
+  {
+    "event": "Workshop Brasileiro de Lógica",
+    "type": "satelite",
+    "section": "Palestra convidada"
+  },
+  {
+    "event": "Workshop Pré-IETF/IRTF",
+    "type": "satelite",
+    "section": "Sessão Técnica 2; Palestra: Human Rights considerations in protocols design and deployment; Best paper award"
+  },
+  {
+    "event": "Seminário Integrado de Software e Hardware",
+    "type": "principal",
+    "section": "Keynote 1: Filosofia da Tecnologia: Uma Experiência Docente na Pós-Graduação da PUC-Rio"
+  },
+  {
+    "event": "Seminário Integrado de Software e Hardware",
+    "type": "principal",
+    "section": "Sessão Técnica 1: Cloud, SDN e Processamento de Alto Desempenho"
+  },
+  {
+    "event": "Women in Information Technology",
+    "type": "principal",
+    "section": " Reunião com Projetos Parceiros do Programa Meninas Digitais; Abertura; Palestra 1; Sessão Técnica 1"
+  },
+  {
+    "event": "Fórum dos Coordenadores de Pós-Graduação",
+    "type": "extra",
+    "section": "Conversa sobre os GTs do Fórum; Palestra convidada"
+  },
+  {
+    "event": "Concurso de Teses e Dissertações",
+    "type": "principal",
+    "section": "Teses de doutorado"
+  },
+  {
+    "event": "Encontro Nacional de Computação dos Institutos Federais",
+    "type": "satelite",
+    "section": "Sessão Técnica 1: Ensino médio, graduação e pós-graduação"
+  },
+  {
+    "event": "Seminário Integrado de Software e Hardware",
+    "type": "principal",
+    "section": "Sessão Técnica 2: Dispositivo Móvel, Sem Fio e Ubiquidade"
+  },
+  {
+    "event": "Women in Information Technology",
+    "type": "principal",
+    "section": "Sessão Técnica 2 e Artigos Curtos"
+  },
+  {
+    "event": "Fórum dos Coordenadores de Pós-Graduação",
+    "type": "extra",
+    "section": "Assuntos administrativos do Fórum; Conversa com membros do CA-CC/CAPES"
+  },
+  {
+    "event": "Concurso de Teses e Dissertações",
+    "type": "principal",
+    "section": "Dissertações de Mestrado I"
+  },
+  {
+    "event": "Encontro Nacional de Computação dos Institutos Federais",
+    "type": "satelite",
+    "section": "Premiação do melho trabalho de ensino médio e Sessão Técnica 2: graduação, pós-graduação e trabalhos de professores "
+  },
+  {
+    "event": "Seminário Integrado de Software e Hardware",
+    "type": "principal",
+    "section": "Keynote 2: Aveiro Tech City Open Lab: launching a city-scale digital open laboratory"
+  },
+  {
+    "event": "Seminário Integrado de Software e Hardware",
+    "type": "principal",
+    "section": "Sessão Técnica 3: Sistemas Multimídia e Web"
+  },
+  {
+    "event": "Women in Information Technology",
+    "type": "principal",
+    "section": "Sessão Técnica 3; Painel"
+  },
+  {
+    "event": "Jornada de Atualização em Informática",
+    "type": "principal",
+    "section": "Ciência de Dados com Reprodutibilidade usando Jupyter"
+  },
+  {
+    "event": "Concurso de Teses e Dissertações",
+    "type": "principal",
+    "section": "Dissertações de Mestrado II"
+  },
+  {
+    "event": "Escola de Inverno da Maratona SBC de Programação",
+    "type": "satelite",
+    "section": "Tópico 1: Linha de varredura; Tópico 2: Grafos"
+  },
+  {
+    "event": "Seminário Integrado de Software e Hardware",
+    "type": "principal",
+    "section": "Sessão Técnica 4: Sistemas Inteligentes I"
+  },
+  {
+    "event": "Women in Information Technology",
+    "type": "principal",
+    "section": "Palestra 2; Sessão Técnica 4"
+  },
+  {
+    "event": "Jornada de Atualização em Informática",
+    "type": "principal",
+    "section": "Ciência de Dados com Reprodutibilidade usando Jupyter"
+  },
+  {
+    "event": "Workshop de Computação Aplicada à Gestão do Meio Ambiente e Recursos Naturais",
+    "type": "satelite",
+    "section": "Sessões Técnicas 1 e 2"
+  },
+  {
+    "event": "Escola de Inverno da Maratona SBC de Programação",
+    "type": "satelite",
+    "section": "Abertura; Contest"
+  },
+  {
+    "event": "Seminário Integrado de Software e Hardware",
+    "type": "principal",
+    "section": "Keynote 3:"
+  },
+  {
+    "event": "Seminário Integrado de Software e Hardware",
+    "type": "principal",
+    "section": "Sessão Técnica 5: Sistemas de Hardware e Software"
+  },
+  {
+    "event": "Women in Information Technology",
+    "type": "principal",
+    "section": "Sessão Técnica 5; Palestra 3; Encerramento"
+  },
+  {
+    "event": "Jornada de Atualização em Informática",
+    "type": "principal",
+    "section": "Métodos Experimentais em Interação Humano Computador"
+  },
+  {
+    "event": "Brazilian e-Science Workshop",
+    "type": "satelite",
+    "section": "Abertura e sessões: Imagens, Visualização; Workflows"
+  },
+  {
+    "event": "Escola de Inverno da Maratona SBC de Programação",
+    "type": "satelite",
+    "section": "Upsolving; Tópico 3: programação dinâmica"
+  },
+  {
+    "event": "Workshop de Computação Aplicada à Gestão do Meio Ambiente e Recursos Naturais",
+    "type": "satelite",
+    "section": "Roda de diálogos e Sessão Técnica 3"
+  },
+  {
+    "event": "Diretoria SBC",
+    "type": "extra",
+    "section": "Reunião da Diretoria e do Conselho da SBC. Acesso restrito a diretores e conselheiros atuais e eleitos"
+  },
+  {
+    "event": "Seminário Integrado de Software e Hardware",
+    "type": "principal",
+    "section": "Sessão Técnica VI: Sistemas Inteligentes II"
+  },
+  {
+    "event": "Meninas Digitais",
+    "type": "extra",
+    "section": "Fórum Meninas Digitais"
+  },
+  {
+    "event": "Jornada de Atualização em Informática",
+    "type": "principal",
+    "section": "Métodos Experimentais em Interação Humano Computador"
+  },
+  {
+    "event": "Brazilian e-Science Workshop",
+    "type": "satelite",
+    "section": "Sessões: Bioinformática; Ontologias e Dados"
+  },
+  {
+    "event": "Escola de Inverno da Maratona SBC de Programação",
+    "type": "satelite",
+    "section": "Contest; Encerramento; Palestra: Americanas S.A. maratonando na tecnologia"
+  },
+  {
+    "event": "Workshop de Computação Aplicada à Gestão do Meio Ambiente e Recursos Naturais",
+    "type": "satelite",
+    "section": "Sessões Técnicas 4 e 5"
+  },
+  {
+    "event": "CAPES e CNPq",
+    "type": "extra",
+    "section": "Reunião com os Representantes da CAPES e do CNPq"
+  },
+  {
+    "event": "Seminário de Computação e Mercado",
+    "type": "principal",
+    "section": "Abertura; Selo de Inovação SBC; Painel: Os Habitats de inovação como vetor de transformação digital"
+  },
+  {
+    "event": "impósio Brasileiro de Computação Ubíqua e Pervasiva",
+    "type": "satelite",
+    "section": "Keynote 1; Sessão Internet das Coisas"
+  },
+  {
+    "event": "Jornada de Atualização em Informática",
+    "type": "principal",
+    "section": "Privacidade de Dados de Localização: Modelos, Técnicas e Mecanismos"
+  },
+  {
+    "event": "Brazilian e-Science Workshop",
+    "type": "satelite",
+    "section": "Palestra convidada e Sessão Deep Learning"
+  },
+  {
+    "event": "Workshop on Computer and Communication Systems Performance",
+    "type": "satelite",
+    "section": "Abertura; Sessão Internet of Things; Keynote"
+  },
+  {
+    "event": "Secretários Regionais e RIs da SBC",
+    "type": "extra",
+    "section": "Reunião dos Secretários Regionais e Representantes Institucionais da SBC. Acesso restrito à diretoria, SRs e RIs"
+  },
+  {
+    "event": "Seminário de Computação e Mercado",
+    "type": "principal",
+    "section": "Desvendando os segredos de MLOPs; Palestra Loggi; Palestra - T.B.A"
+  },
+  {
+    "event": "impósio Brasileiro de Computação Ubíqua e Pervasiva",
+    "type": "satelite",
+    "section": "Sessão: Ambientes Inteligentes"
+  },
+  {
+    "event": "Jornada de Atualização em Informática",
+    "type": "principal",
+    "section": "Privacidade de Dados de Localização: Modelos, Técnicas e Mecanismos"
+  },
+  {
+    "event": "Workshop on Computer and Communication Systems Performance",
+    "type": "satelite",
+    "section": "Sessão Cloud Computing and Blockchain"
+  },
+  {
+    "event": "Comissões Especiais da SBC",
+    "type": "extra",
+    "section": "Reunião das Comissões Especiais da SBC. Acesso restrito à diretoria e aos coordenadores e integrantes dos comitês gestores das CEs"
+  },
+  {
+    "event": "Seminário de Computação e Mercado",
+    "type": "principal",
+    "section": "Palestra: T.B.A; Palestra: CEO da Jusbrasil; Palestra: Anjos do Brasil"
+  },
+  {
+    "event": "impósio Brasileiro de Computação Ubíqua e Pervasiva",
+    "type": "satelite",
+    "section": "Keynote 2; Sessão Computação em Névoa e Distribuída"
+  },
+  {
+    "event": "Jornada de Atualização em Informática",
+    "type": "principal",
+    "section": "Blockchain e Contratos Inteligentes para Aplicações em IoT, uma Abordagem Prática"
+  },
+  {
+    "event": "Workshop on Computer and Communication Systems Performance",
+    "type": "satelite",
+    "section": "Sessão Neural Networks; Keynote"
+  },
+  {
+    "event": "Seminário de Computação e Mercado",
+    "type": "principal",
+    "section": "Palestras: T.B.A. Encerramento"
+  },
+  {
+    "event": "impósio Brasileiro de Computação Ubíqua e Pervasiva",
+    "type": "satelite",
+    "section": "Sessão Aplicações Ubíquas e Pervasivas; Premiação dos melhores trabalhos e encerramento"
+  },
+  {
+    "event": "Jornada de Atualização em Informática",
+    "type": "principal",
+    "section": "Blockchain e Contratos Inteligentes para Aplicações em IoT, uma Abordagem Prática"
+  },
+  {
+    "event": "Workshop on Computer and Communication Systems Performance",
+    "type": "satelite",
+    "section": "Sessão Real Time and Energy; Encerramento e premiação dos melhores trabalhos"
+  }
+]
