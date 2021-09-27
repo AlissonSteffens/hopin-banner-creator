@@ -221,13 +221,18 @@ select option:disabled {
   color: #000;
 }
 
-.banner.youtube.principal .content-wrap, .banner.youtube.mostra .content-wrap {
+.banner.youtube.principal .content-wrap {
   background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/youtube/principal.png");
   background-size: cover;
 }
 
-.banner.youtube.principal .content-wrap .session, .banner.youtube.mostra .content-wrap .session {
+.banner.youtube.principal .content-wrap .session {
   color: #000;
+}
+
+.banner.youtube.mostra .content-wrap {
+  background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/youtube/mostra.png");
+  background-size: cover;
 }
 
 .banner.youtube.vida .content-wrap {

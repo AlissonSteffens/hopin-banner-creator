@@ -209,13 +209,19 @@ select {
         }
       }
     }
-    &.principal, &.mostra {
+    &.principal {
       .content-wrap {
         background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/youtube/principal.png");
         background-size: cover;
         .session{
           color: #000;
         }
+      }
+    }
+    &.mostra {
+      .content-wrap {
+        background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/youtube/mostra.png");
+        background-size: cover;
       }
     }
     &.vida {
