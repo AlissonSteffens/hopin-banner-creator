@@ -96,7 +96,7 @@ function generateBanners() {
 
     bann.classList.add('banner')
     // only has a custom type if is a hopin template
-    if (template == 'hopin') {
+    if (template == 'hopin' || template == 'youtube') {
       bann.classList.add(section.type)
     }
 

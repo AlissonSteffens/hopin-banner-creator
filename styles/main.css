@@ -207,8 +207,20 @@ select option:disabled {
   max-height: 720px;
 }
 
-.banner.youtube .content-wrap {
-  background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/youtube/bg.jpg");
+.banner.youtube.exatas .content-wrap {
+  background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/youtube/exatas.png");
+}
+
+.banner.youtube.humanas .content-wrap {
+  background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/hopin/humanas.png");
+}
+
+.banner.youtube.principal .content-wrap, .banner.youtube.mostra .content-wrap {
+  background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/hopin/principal.png");
+}
+
+.banner.youtube.vida .content-wrap {
+  background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/hopin/vida.png");
 }
 
 .banner.expo {
