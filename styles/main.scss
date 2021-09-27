@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
 
-$amarelo: #f4c71b;
+$amarelo: #F99400;
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -197,24 +197,36 @@ select {
     &.exatas {
       .content-wrap {
         background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/youtube/exatas.png");
+        background-size: cover;
       }
     }
     &.humanas {
       .content-wrap {
-        background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/hopin/humanas.png");
+        background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/youtube/humanas.png");
+        background-size: cover;
+        .event{
+          color: #000;
+        }
       }
     }
     &.principal, &.mostra {
       .content-wrap {
-        background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/hopin/principal.png");
+        background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/youtube/principal.png");
+        background-size: cover;
+        .session{
+          color: #000;
+        }
       }
     }
     &.vida {
       .content-wrap {
-        background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/hopin/vida.png");
+        background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/youtube/vida.png");
+        background-size: cover;
       }
     }
-    
+    .content-wrap {
+      background-size: cover;
+    }
   }
   &.expo {
     width: 1500px;

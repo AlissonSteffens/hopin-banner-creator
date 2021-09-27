@@ -209,18 +209,34 @@ select option:disabled {
 
 .banner.youtube.exatas .content-wrap {
   background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/youtube/exatas.png");
+  background-size: cover;
 }
 
 .banner.youtube.humanas .content-wrap {
-  background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/hopin/humanas.png");
+  background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/youtube/humanas.png");
+  background-size: cover;
+}
+
+.banner.youtube.humanas .content-wrap .event {
+  color: #000;
 }
 
 .banner.youtube.principal .content-wrap, .banner.youtube.mostra .content-wrap {
-  background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/hopin/principal.png");
+  background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/youtube/principal.png");
+  background-size: cover;
+}
+
+.banner.youtube.principal .content-wrap .session, .banner.youtube.mostra .content-wrap .session {
+  color: #000;
 }
 
 .banner.youtube.vida .content-wrap {
-  background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/hopin/vida.png");
+  background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/youtube/vida.png");
+  background-size: cover;
+}
+
+.banner.youtube .content-wrap {
+  background-size: cover;
 }
 
 .banner.expo {
@@ -253,7 +269,7 @@ select option:disabled {
   min-height: 25px;
   max-height: 25px;
   display: block;
-  background-color: #f4c71b;
+  background-color: #F99400;
 }
 
 .banner .content-wrap {
@@ -283,7 +299,7 @@ select option:disabled {
 .banner .content-wrap .content .event {
   font-weight: 700;
   font-size: 42px;
-  color: #f4c71b;
+  color: #F99400;
   text-align: center;
 }
 
@@ -302,7 +318,7 @@ select option:disabled {
 .banner .content-wrap .content .people {
   text-align: center;
   font-size: 25px;
-  color: #f4c71b;
+  color: #F99400;
   font-weight: 700;
 }
 
