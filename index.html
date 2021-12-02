@@ -13,21 +13,46 @@
 </head>
 
 <body>
-  <main>
-    <div class="nav">
-      <button class="btn" onclick="askJSON()">Carregar JSON</button>
-      <button class="btn" id="generate" onclick="generateBanners()" disabled>Gerar Banners</button>
-      <button class="btn" id="save" onclick="save()" disabled>Baixar Imagens</button>
-      <select name="template" id="template-selector">
-        <option value="Hopin">Hoppin</option>
-        <option value="Youtube">Youtube</option>
-        <option value="Expo">Expo</option>
-      </select>
+  <div class="nav">
+    <div class="nav-content">
+      <a href="https://www.nevente.com/">
+        <img src="https://www.nevente.com/logo.png" alt="logo" class="logo">
+      </a>
+      <span>Hoppin and Youtube Banner Maker</span>
     </div>
-    <div class='info' id="infos">
-    </div>
+    <div class="nav-border"></div>
 
-    <div id="banners"></div>
+
+  </div>
+  <main>
+
+    <div class="content">
+      <div class="description">
+        <h1>Hoppin and Youtube Banner Maker</h1>
+        <p>Javascript based banner creator, made for CSBC. It can make images for both hopin or youtube thumbnails.</p>
+        <p>You can use the default images or upload your own.</p>
+        <p><strong>To know more about <a href="https://www.nevente.com/">
+              <img src="https://www.nevente.com/logo.png" alt="logo" height="15px">
+            </a>, contact us at <a href="mailto:contato@nevente.com">contato@nevente.com</a></strong></p>
+      </div>
+      <div class="menus">
+        <button class="btn" onclick="askJSON()">Carregar JSON</button>
+        <button class="btn" id="generate" onclick="generateBanners()" disabled>Gerar Banners</button>
+        <button class="btn" id="save" onclick="save()" disabled>Baixar Imagens</button>
+        <select name="template" id="template-selector">
+          <option value="Hopin">Hoppin</option>
+          <option value="Youtube">Youtube</option>
+          <option value="Expo">Expo</option>
+        </select>
+      </div>
+      <div class='info' id="infos">
+      </div>
+    </div>
+      
+
+      <div id="banners"></div>
+    
+
   </main>
   <a id="link"></a>
 
@@ -43,7 +68,7 @@
 
   <div class="banner expo" id="expo-template">
     <div class="content-wrap">
-      
+
       <div class="content">
         <div class="event">${secondary}</div>
         <div class="session">${main}</div>

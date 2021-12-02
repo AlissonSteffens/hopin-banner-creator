@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
 
-$amarelo: #F99400;
+$amarelo: #f99400;
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -8,11 +8,62 @@ body {
   padding: 0;
 }
 
-
 .nav {
+  position: fixed;
+  background-color: #fff;
+  z-index: 1;
+  width: 100%;
+  .nav-content {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 1rem;
+
+    .logo {
+      height: 32px;
+      margin-top: 5px;
+      margin-left: 10px;
+      margin-right: 15px;
+    }
+    span {
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-right: 15px;
+    }
+  }
+  .nav-border {
+    min-height: 2px;
+    height: 2px;
+    background: linear-gradient(to bottom left, #00dca6, #315afa);
+  }
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 70px;
+  .description {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.2rem;
+      line-height: 1.5;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.menus {
   display: flex;
   background-color: #ddd;
   padding: 10px;
+
   .btn {
     font-size: 1rem;
     background-color: #3498db;
@@ -204,7 +255,7 @@ select {
       .content-wrap {
         background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/youtube/humanas.png");
         background-size: cover;
-        .event{
+        .event {
           color: #000;
         }
       }
@@ -213,7 +264,7 @@ select {
       .content-wrap {
         background: url("https://alissonsteffens.github.io/hopin-banner-creator/themes/youtube/principal.png");
         background-size: cover;
-        .session{
+        .session {
           color: #000;
         }
       }
@@ -321,8 +372,12 @@ select {
 }
 
 #banners {
+  width: 100%;
+  text-align: center;
   display: grid;
   grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
   gap: 20px;
   padding: 20px;
 }
