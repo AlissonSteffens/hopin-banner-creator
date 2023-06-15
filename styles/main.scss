@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
 
-$amarelo: #f99400;
-
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -245,6 +243,16 @@ select {
     height: 720px;
     min-height: 720px;
     max-height: 720px;
+    background-color: var(--backgroundColor);
+    &.inverted {
+      background-color: var(--textColor);
+      .event {
+        color: var(--altColor) !important;
+      }
+      .session {
+        color: var(--backgroundColor) !important;
+      }
+    }
     &.exatas {
       .content-wrap {
         background: url("https://nevente.github.io/hopin-banner-creator/themes/youtube/exatas.png");
@@ -311,7 +319,7 @@ select {
     min-height: 25px;
     max-height: 25px;
     display: block;
-    background-color: $amarelo;
+    background-color: var(--altColor);
   }
 
   .content-wrap {
@@ -333,13 +341,14 @@ select {
       .event {
         font-weight: 700;
         font-size: 42px;
-        color: $amarelo;
+        color: var(--altColor);
         text-align: center;
       }
       .session {
         font-weight: 900;
         font-size: 65px;
         text-align: center;
+        color: var(--textColor);
         small {
           font-size: 50px;
           font-weight: 500;
@@ -349,7 +358,7 @@ select {
       .people {
         text-align: center;
         font-size: 25px;
-        color: $amarelo;
+        color: var(--altColor);
         font-weight: 700;
         small {
           color: white;
@@ -388,4 +397,21 @@ select {
 #youtube-template,
 #expo-template {
   display: none;
+}
+
+.btn-template {
+  display: inline-block;
+  padding: 5px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: underline;
+  border: none;
+  &:hover {
+    background-color: lightgray;
+  }
 }

@@ -1,102 +1,126 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Hopin Banner Maker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="styles/main.css"
+    />
+    <script src="scripts/main.js"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
 
-<head>
-  <meta charset='utf-8'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Hopin Banner Maker</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel='stylesheet' type='text/css' media='screen' href='styles/main.css'>
-  <script src='scripts/main.js'></script>
-  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-</head>
-
-<body>
-  <div class="nav">
-    <div class="nav-content">
-      <a href="https://www.nevente.com/">
-        <img src="https://www.nevente.com/logo.png" alt="logo" class="logo">
-      </a>
-      <span>Hoppin and Youtube Banner Maker</span>
+  <body>
+    <div class="nav">
+      <div class="nav-content">
+        <a href="https://www.nevente.com/">
+          <img src="https://www.nevente.com/logo.png" alt="logo" class="logo" />
+        </a>
+        <span>Hoppin and Youtube Banner Maker</span>
+      </div>
+      <div class="nav-border"></div>
     </div>
-    <div class="nav-border"></div>
-
-
-  </div>
-  <main>
-
-    <div class="content">
-      <div class="description">
-        <h1>Hoppin and Youtube Banner Maker</h1>
-        <p>Javascript based banner creator, made for CSBC. It can make images for both hopin or youtube thumbnails.</p>
-        <p>You can use the default images or upload your own.</p>
-        <p><strong>To know more about <a href="https://www.nevente.com/">
-              <img src="https://www.nevente.com/logo.png" alt="logo" height="15px">
-            </a>, contact us at <a href="mailto:contato@nevente.com">contato@nevente.com</a></strong></p>
+    <main>
+      <div class="content">
+        <div class="description">
+          <h1>Hoppin and Youtube Banner Maker</h1>
+          <p>
+            Javascript based banner creator, made for CSBC. It can make images
+            for both hopin or youtube thumbnails.
+          </p>
+          <p>You can use the default images or upload your own.</p>
+          <p>
+            Use the
+            <button class="btn btn-template" onclick="downloadTemplate()">
+              template
+            </button>
+            to upload a JSON file with the data.
+          </p>
+          <p>
+            <strong
+              >To know more about
+              <a href="https://www.nevente.com/"
+                ><img
+                  src="https://www.nevente.com/logo.png"
+                  alt="logo"
+                  height="15px" /></a
+              >, contact us at
+              <a href="mailto:contato@nevente.com"
+                >contato@nevente.com</a
+              ></strong
+            >
+          </p>
+        </div>
+        <div class="menus">
+          <button class="btn" onclick="askJSON()">Carregar JSON</button>
+          <button
+            class="btn"
+            id="generate"
+            onclick="generateBanners()"
+            disabled
+          >
+            Gerar Banners
+          </button>
+          <button class="btn" id="save" onclick="save()" disabled>
+            Baixar Imagens
+          </button>
+          <select name="template" id="template-selector">
+            <option value="Hopin">Hoppin</option>
+            <option value="Youtube">Youtube</option>
+            <option value="Expo">Expo</option>
+          </select>
+        </div>
+        <div class="info" id="infos"></div>
       </div>
-      <div class="menus">
-        <button class="btn" onclick="askJSON()">Carregar JSON</button>
-        <button class="btn" id="generate" onclick="generateBanners()" disabled>Gerar Banners</button>
-        <button class="btn" id="save" onclick="save()" disabled>Baixar Imagens</button>
-        <select name="template" id="template-selector">
-          <option value="Hopin">Hoppin</option>
-          <option value="Youtube">Youtube</option>
-          <option value="Expo">Expo</option>
-        </select>
-      </div>
-      <div class='info' id="infos">
-      </div>
-    </div>
-      
 
       <div id="banners"></div>
-    
+    </main>
+    <a id="link"></a>
 
-  </main>
-  <a id="link"></a>
-
-  <div class="banner hopin" id="hopin-template">
-    <div class="content-wrap">
-      <div class="content">
-        <img class="logo" src="assets/logo.png" alt="">
-        <div class="event">${secondary}</div>
-        <div class="session">${main}</div>
+    <div class="banner hopin" id="hopin-template">
+      <div class="content-wrap">
+        <div class="content">
+          <img class="logo" src="assets/logo.png" alt="" />
+          <div class="event">${secondary}</div>
+          <div class="session">${main}</div>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="banner expo" id="expo-template">
-    <div class="content-wrap">
-
-      <div class="content">
-        <div class="event">${secondary}</div>
-        <div class="session">${main}</div>
-        <div class="people">${small}</div>
+    <div class="banner expo" id="expo-template">
+      <div class="content-wrap">
+        <div class="content">
+          <div class="event">${secondary}</div>
+          <div class="session">${main}</div>
+          <div class="people">${small}</div>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="banner youtube" id="youtube-template">
-    <div class="content-wrap">
-      <div class="content">
-        <div class="event">${secondary}</div>
-        <div class="session">${main}</div>
-        <div class="people">${small}</div>
+    <div class="banner youtube" id="youtube-template">
+      <div class="content-wrap">
+        <div class="content">
+          <div class="event">${secondary}</div>
+          <div class="session">${main}</div>
+          <div class="people">${small}</div>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class='info' id="info-template">
-    <div class="counter">
-      ${count}
+    <div class="info" id="info-template">
+      <div class="counter">${count}</div>
+      <div class="card-title">${name}</div>
+      <div class="card-text">
+        <ul>
+          ${keys}
+        </ul>
+      </div>
     </div>
-    <div class="card-title">${name}</div>
-    <div class="card-text">
-      <ul>${keys}</ul>
-    </div>
-
-  </div>
-</body>
-
+  </body>
 </html>

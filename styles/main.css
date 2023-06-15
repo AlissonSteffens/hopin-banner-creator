@@ -11,36 +11,27 @@ body {
   z-index: 1;
   width: 100%;
 }
-
 .nav .nav-content {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto 1fr;
-      grid-template-columns: auto 1fr;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  grid-template-columns: auto 1fr;
+  align-items: center;
   padding: 1rem;
 }
-
 .nav .nav-content .logo {
   height: 32px;
   margin-top: 5px;
   margin-left: 10px;
   margin-right: 15px;
 }
-
 .nav .nav-content span {
   text-align: center;
   font-size: 1.2rem;
   font-weight: bold;
   margin-right: 15px;
 }
-
 .nav .nav-border {
   min-height: 2px;
   height: 2px;
-  background: -webkit-gradient(linear, right top, left bottom, from(#00dca6), to(#315afa));
   background: linear-gradient(to bottom left, #00dca6, #315afa);
 }
 
@@ -49,18 +40,15 @@ body {
   margin: 0 auto;
   padding-top: 70px;
 }
-
 .content .description {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-
 .content .description h1 {
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 10px;
 }
-
 .content .description p {
   font-size: 1.2rem;
   line-height: 1.5;
@@ -68,13 +56,10 @@ body {
 }
 
 .menus {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background-color: #ddd;
   padding: 10px;
 }
-
 .menus .btn {
   font-size: 1rem;
   background-color: #3498db;
@@ -86,11 +71,9 @@ body {
   cursor: pointer;
   margin: 0.2rem 1rem;
 }
-
 .menus .btn:hover {
   background-color: #2980b9;
 }
-
 .menus .btn:disabled {
   cursor: default;
   background-color: #aaa;
@@ -104,17 +87,14 @@ body {
   margin: 20px;
   margin-bottom: 0;
 }
-
 .info .card-title {
   margin-bottom: 0;
   font-weight: 700;
   font-size: 1.5rem;
 }
-
 .info .card-text {
   padding: 20px;
 }
-
 .info .card-text ul {
   margin-bottom: 0;
   margin-left: 0;
@@ -124,7 +104,6 @@ body {
           padding-block-start: 0;
   padding: 0;
 }
-
 .info .card-text ul li {
   display: inline-block;
   list-style: none;
@@ -137,15 +116,12 @@ body {
   background-color: #e8e8e8;
   color: #555;
 }
-
 .info .card-text ul li:hover {
   background-color: #d4d4d4;
 }
-
 .info .card-text img {
   width: 100%;
 }
-
 .info .counter {
   float: right;
   margin-top: -20px;
@@ -168,25 +144,20 @@ select {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
-
 select:focus {
   border-color: #3498db;
   outline: none;
 }
-
 select:hover {
   background-color: #e9e9e9;
 }
-
 select:active {
   background-color: #ebebeb;
 }
-
 select:disabled {
   cursor: default;
   background-color: #aaa;
 }
-
 select option {
   padding: 0.5rem;
   border: none;
@@ -200,20 +171,16 @@ select option {
   border: none;
   border-bottom: 1px solid #ddd;
 }
-
 select option:selected {
   background-color: #3498db;
   color: white;
 }
-
 select option:hover {
   background-color: #e9e9e9;
 }
-
 select option:active {
   background-color: #ebebeb;
 }
-
 select option:disabled {
   cursor: default;
   background-color: #aaa;
@@ -224,13 +191,10 @@ select option:disabled {
 }
 
 .banner {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 1fr;
-      grid-template-rows: 1fr;
+  grid-template-rows: 1fr;
   background-color: gray;
 }
-
 .banner.hopin {
   width: 1500px;
   min-width: 1500px;
@@ -239,27 +203,21 @@ select option:disabled {
   min-height: 600px;
   max-height: 600px;
 }
-
 .banner.hopin .content-wrap {
   background: url("https://nevente.github.io/hopin-banner-creator/themes/hopin/bg.jpg");
 }
-
 .banner.hopin.satelite .content-wrap {
   background: url("https://nevente.github.io/hopin-banner-creator/themes/hopin/bg2.jpg");
 }
-
 .banner.hopin.extra .content-wrap {
   background: url("https://nevente.github.io/hopin-banner-creator/themes/hopin/bg3.jpg");
 }
-
 .banner.hopin.espacial .content-wrap {
   background: url("https://nevente.github.io/hopin-banner-creator/themes/hopin/bg5.jpg");
 }
-
 .banner.hopin.treino .content-wrap {
   background: url("https://nevente.github.io/hopin-banner-creator/themes/hopin/bg4.jpg");
 }
-
 .banner.youtube {
   width: 1280px;
   min-width: 1280px;
@@ -267,45 +225,46 @@ select option:disabled {
   height: 720px;
   min-height: 720px;
   max-height: 720px;
+  background-color: var(--backgroundColor);
 }
-
+.banner.youtube.inverted {
+  background-color: var(--textColor);
+}
+.banner.youtube.inverted .event {
+  color: var(--altColor) !important;
+}
+.banner.youtube.inverted .session {
+  color: var(--backgroundColor) !important;
+}
 .banner.youtube.exatas .content-wrap {
   background: url("https://nevente.github.io/hopin-banner-creator/themes/youtube/exatas.png");
   background-size: cover;
 }
-
 .banner.youtube.humanas .content-wrap {
   background: url("https://nevente.github.io/hopin-banner-creator/themes/youtube/humanas.png");
   background-size: cover;
 }
-
 .banner.youtube.humanas .content-wrap .event {
   color: #000;
 }
-
 .banner.youtube.principal .content-wrap {
   background: url("https://nevente.github.io/hopin-banner-creator/themes/youtube/principal.png");
   background-size: cover;
 }
-
 .banner.youtube.principal .content-wrap .session {
   color: #000;
 }
-
 .banner.youtube.mostra .content-wrap {
   background: url("https://nevente.github.io/hopin-banner-creator/themes/youtube/mostra.png");
   background-size: cover;
 }
-
 .banner.youtube.vida .content-wrap {
   background: url("https://nevente.github.io/hopin-banner-creator/themes/youtube/vida.png");
   background-size: cover;
 }
-
 .banner.youtube .content-wrap {
   background-size: cover;
 }
-
 .banner.expo {
   width: 1500px;
   min-width: 1500px;
@@ -316,89 +275,73 @@ select option:disabled {
   position: relative;
   overflow: hidden;
 }
-
 .banner.expo .content {
   display: none !important;
 }
-
 .banner.expo .content-wrap {
   background: url("/themes/expo/bg.png");
 }
-
 .banner.expo .water-mark {
   position: absolute;
   bottom: -550px;
   right: -700px;
 }
-
 .banner .topline {
   height: 25px;
   min-height: 25px;
   max-height: 25px;
   display: block;
-  background-color: #f99400;
+  background-color: var(--altColor);
 }
-
 .banner .content-wrap {
   padding: 50px 100px;
-  display: -ms-grid;
   display: grid;
   place-items: center;
   background-size: cover;
   background-position-y: center;
 }
-
 .banner .content-wrap .content {
-  display: -ms-grid;
   display: grid;
   margin: auto 0;
   place-items: center;
-  -ms-grid-rows: auto auto 1fr;
-      grid-template-rows: auto auto 1fr;
+  grid-template-rows: auto auto 1fr;
   gap: 20px;
   color: white;
 }
-
 .banner .content-wrap .content .logo {
   width: 125px;
 }
-
 .banner .content-wrap .content .event {
   font-weight: 700;
   font-size: 42px;
-  color: #f99400;
+  color: var(--altColor);
   text-align: center;
 }
-
 .banner .content-wrap .content .session {
   font-weight: 900;
   font-size: 65px;
   text-align: center;
+  color: var(--textColor);
 }
-
 .banner .content-wrap .content .session small {
   font-size: 50px;
   font-weight: 500;
   display: block;
 }
-
 .banner .content-wrap .content .people {
   text-align: center;
   font-size: 25px;
-  color: #f99400;
+  color: var(--altColor);
   font-weight: 700;
 }
-
 .banner .content-wrap .content .people small {
   color: white;
   font-weight: 500;
   font-size: 18px;
 }
-
 .banner.long .session {
   font-size: 36px !important;
 }
-
 .banner.long .session small {
   font-size: 24px !important;
   font-weight: 500;
@@ -408,13 +351,9 @@ select option:disabled {
 #banners {
   width: 100%;
   text-align: center;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  grid-template-columns: 1fr;
+  align-items: center;
   justify-items: center;
   gap: 20px;
   padding: 20px;
@@ -429,4 +368,20 @@ select option:disabled {
 #expo-template {
   display: none;
 }
-/*# sourceMappingURL=main.css.map */
+
+.btn-template {
+  display: inline-block;
+  padding: 5px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: underline;
+  border: none;
+}
+.btn-template:hover {
+  background-color: lightgray;
+}/*# sourceMappingURL=main.css.map */

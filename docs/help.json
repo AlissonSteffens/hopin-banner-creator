@@ -2,9 +2,25 @@
   "name": "Sec",
   "data": [
     {
-      "event": "WFIBRE",
-      "type": "satelite",
-      "section": "Workshop do testbed FIBRE"
+      "event": "ScienceDay",
+      "section": "Research, Innovation and Entrepreneurship – Brazilian researchers' case in Japan and Singapore"
+    },
+    {
+      "event": "ScienceDay",
+      "type": "inverted",
+      "section": "Pesquisa, Inovação e Empreendedorismo - Case de pesquisadores brasileiros no Japão e em Singapura: (Traduzido)"
+    },
+    {
+      "event": "ScienceDay",
+      "section": "Research, Post-graduation and International Scientific Cooperation"
+    },
+    {
+      "event": "ScienceDay",
+      "type": "inverted",
+      "section": "Pesquisa, Pós-Graduação e Cooperação Científica Internacional: (Traduzido)"
     }
-  ]
+  ],
+  "altColor": "#5fd95b",
+  "textColor": "#fafafa",
+  "backgroundColor": "#053959"
 }
